@@ -1,0 +1,213 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/element_about"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/element_about\/field_image_01": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2020-01\/3_7.jpg"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/element_about\/field_paragraph_unlimited_01": [
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 102
+        }
+    ],
+    "uuid": [
+        {
+            "value": "0d97cfec-e25f-4548-b7e7-cc297b456882"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 125
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "element_about"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-01-29T12:22:58+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "15"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "paragraph"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_paragraph_unlimited_01"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "field_area_01": [
+        {
+            "value": "<h4>Mr. Peanutbutter<\/h4>\r\n\r\n<h6 class=\"subtitle\">Actor<\/h6>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare sem sit.<\/p>\r\n",
+            "format": "full_html",
+            "processed": "<h4>Mr. Peanutbutter<\/h4>\n\n<h6 class=\"subtitle\">Actor<\/h6>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare sem sit.<\/p>\n",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/element_about\/field_image_01": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2020-01\/3_7.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a46020a4-1513-4eea-9b18-f7fe1d365eff"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/element_about\/field_paragraph_unlimited_01": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/element_about_hover_link"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bd811902-04c4-4ab6-96e5-d761a0289ada"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "121"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/element_about_hover_link"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d2f5a7f2-aa73-48b3-8364-e36e92da3542"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "122"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/element_about_hover_link"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "eba449f3-9304-4d9a-821c-469660e9d582"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "123"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/element_about_hover_link"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b1859201-4084-4a51-ac77-97a32ea50715"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "124"
+            }
+        ]
+    }
+}

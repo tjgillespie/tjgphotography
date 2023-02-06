@@ -1,0 +1,139 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraphs_unlimited_01
+    - node.type.page_blog_overview
+    - paragraphs.paragraphs_type.element_about
+    - paragraphs.paragraphs_type.element_about_hover_link
+    - paragraphs.paragraphs_type.element_faq
+    - paragraphs.paragraphs_type.element_footer_social_icon
+    - paragraphs.paragraphs_type.element_image_grid_image_slider
+    - paragraphs.paragraphs_type.element_image_grid_single_image
+    - paragraphs.paragraphs_type.element_image_grid_youtube_video
+    - paragraphs.paragraphs_type.element_partner
+    - paragraphs.paragraphs_type.element_quote
+    - paragraphs.paragraphs_type.element_usp
+    - paragraphs.paragraphs_type.panel_blog_image
+    - paragraphs.paragraphs_type.panel_blog_image_slider
+    - paragraphs.paragraphs_type.panel_blog_teaser
+    - paragraphs.paragraphs_type.panel_blog_text
+    - paragraphs.paragraphs_type.panel_blog_video
+  module:
+    - entity_reference_revisions
+id: node.page_blog_overview.field_paragraphs_unlimited_01
+field_name: field_paragraphs_unlimited_01
+entity_type: node
+bundle: page_blog_overview
+label: Panels
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      element_about: element_about
+      element_about_hover_link: element_about_hover_link
+      element_faq: element_faq
+      element_footer_social_icon: element_footer_social_icon
+      element_image_grid_image_slider: element_image_grid_image_slider
+      element_image_grid_single_image: element_image_grid_single_image
+      element_image_grid_youtube_video: element_image_grid_youtube_video
+      element_partner: element_partner
+      element_quote: element_quote
+      element_usp: element_usp
+      panel_blog_image: panel_blog_image
+      panel_blog_image_slider: panel_blog_image_slider
+      panel_blog_teaser: panel_blog_teaser
+      panel_blog_text: panel_blog_text
+      panel_blog_video: panel_blog_video
+    negate: 1
+    target_bundles_drag_drop:
+      element_about:
+        weight: 29
+        enabled: true
+      element_about_hover_link:
+        weight: 30
+        enabled: true
+      element_faq:
+        weight: 31
+        enabled: true
+      element_footer_social_icon:
+        weight: 32
+        enabled: true
+      element_image_grid_image_slider:
+        weight: 33
+        enabled: true
+      element_image_grid_single_image:
+        weight: 34
+        enabled: true
+      element_image_grid_youtube_video:
+        weight: 35
+        enabled: true
+      element_partner:
+        weight: 36
+        enabled: true
+      element_quote:
+        weight: 37
+        enabled: true
+      element_usp:
+        weight: 38
+        enabled: true
+      panel_about:
+        weight: 39
+        enabled: false
+      panel_background_image_with_text:
+        weight: 40
+        enabled: false
+      panel_banner:
+        weight: 41
+        enabled: false
+      panel_blog_image:
+        weight: 42
+        enabled: true
+      panel_blog_image_slider:
+        weight: 43
+        enabled: true
+      panel_blog_teaser:
+        weight: 44
+        enabled: true
+      panel_blog_text:
+        weight: 45
+        enabled: true
+      panel_blog_video:
+        weight: 46
+        enabled: true
+      panel_contact:
+        weight: 47
+        enabled: false
+      panel_faq:
+        weight: 48
+        enabled: false
+      panel_hero:
+        weight: 49
+        enabled: false
+      panel_hero_slider:
+        weight: 50
+        enabled: false
+      panel_image_grid:
+        weight: 51
+        enabled: false
+      panel_legal:
+        weight: 52
+        enabled: false
+      panel_partnerships:
+        weight: 53
+        enabled: false
+      panel_quotes:
+        weight: 54
+        enabled: false
+      panel_text:
+        weight: 55
+        enabled: false
+      panel_usp:
+        weight: 56
+        enabled: false
+field_type: entity_reference_revisions

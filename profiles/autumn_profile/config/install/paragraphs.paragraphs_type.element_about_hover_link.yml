@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: element_about_hover_link
+label: 'Element / About - Hover Link'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

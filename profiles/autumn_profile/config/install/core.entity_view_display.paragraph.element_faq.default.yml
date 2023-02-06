@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.element_faq.field_area_01
+    - field.field.paragraph.element_faq.field_text_01
+    - paragraphs.paragraphs_type.element_faq
+  module:
+    - text
+id: paragraph.element_faq.default
+targetEntityType: paragraph
+bundle: element_faq
+mode: default
+content:
+  field_area_01:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_text_01:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

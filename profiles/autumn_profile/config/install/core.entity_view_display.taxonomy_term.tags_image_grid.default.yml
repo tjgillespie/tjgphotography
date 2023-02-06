@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tags_image_grid
+  module:
+    - text
+id: taxonomy_term.tags_image_grid.default
+targetEntityType: taxonomy_term
+bundle: tags_image_grid
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

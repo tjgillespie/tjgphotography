@@ -1,0 +1,71 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.panel_text.field_area_01
+    - field.field.paragraph.panel_text.field_extra_padding_01
+    - field.field.paragraph.panel_text.field_scroll_id
+    - paragraphs.paragraphs_type.panel_text
+  module:
+    - field_group
+    - text
+third_party_settings:
+  field_group:
+    group_content:
+      children:
+        - field_area_01
+      label: Content
+      region: content
+      parent_name: ''
+      weight: 1
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        id: ''
+        description: ''
+        required_fields: true
+    group_settings:
+      children:
+        - field_scroll_id
+        - field_extra_padding_01
+      label: Settings
+      region: content
+      parent_name: ''
+      weight: 0
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        id: ''
+        description: ''
+        required_fields: true
+id: paragraph.panel_text.default
+targetEntityType: paragraph
+bundle: panel_text
+mode: default
+content:
+  field_area_01:
+    type: text_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_extra_padding_01:
+    type: boolean_checkbox
+    weight: 4
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_scroll_id:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

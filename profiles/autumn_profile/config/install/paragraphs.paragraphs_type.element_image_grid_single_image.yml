@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: element_image_grid_single_image
+label: 'Element / Image Grid - Single Image'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

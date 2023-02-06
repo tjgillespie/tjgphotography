@@ -1,0 +1,156 @@
+.popup{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1100;
+  background-color: rgba(0, 0, 0, 0.7);
+  pointer-events: none;
+
+  .close-icon{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+    opacity: 1;
+    z-index: 20;
+    will-change: opacity;
+
+    &:hover{
+      opacity: 0.8;
+    }
+
+    i{
+      font-size: 20px;
+    }
+
+    @media only screen and (min-width: 2000px){
+      top: 1vw;
+      right: 1vw;
+
+      i{
+        font-size: 1vw;
+      }
+    }
+  }
+
+  .inner-popup{
+    padding: 40px;
+
+    @media only screen and (min-width: 2000px){
+      padding: 2vw;
+    }
+  }
+
+  img{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  &.popup-image{
+    .inner-popup{
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      transform: translate(0, -50%);
+    }
+  }
+
+  &.popup-image-slider{
+    .inner-popup,
+    .slider-wrap,
+    .slick-list,
+    .slick-track{
+      height: 100%;
+    }
+
+    .img-wrap{
+      height: auto;
+      display: flex;
+      align-items: center;
+    }
+
+    .slick-track{
+      display: flex;
+      align-items: center;
+    }
+
+    .inner-popup{
+      padding-left: 0;
+      padding-right: 0;
+      opacity: 0;
+      transition: 1s ease-out;
+      will-change: opacity;
+
+      &.active{
+        opacity: 1;
+      }
+
+      @media only screen and (min-width: 2000px){
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+
+    .img-wrap{
+      padding-left: 20px;
+      padding-right: 20px;
+      position: relative;
+
+      .overlay{
+        background-color: #000;
+        opacity: 0.8;
+        transition: 0.3s ease-out;
+        will-change: opacity;
+      }
+
+      &.slick-current{
+        .overlay{
+          opacity: 0;
+        }
+      }
+
+      @media only screen and (min-width: 2000px){
+        padding-left: 1vw;
+        padding-right: 1vw;
+      }
+    }
+  }
+
+  &.popup-video{
+    .inner-popup{
+      position: relative;
+      height: 100%;
+    }
+
+    .inner-image{
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      transform: translate(0, -50%);
+    }
+
+    &.video-related-height{
+      .inner-image{
+        height: 100%;
+
+        .player-wrap{
+          height: 100%;
+        }
+
+        .ratio-wrap{
+          height: 100%;
+          padding-bottom: 0;
+          margin: 0 auto;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

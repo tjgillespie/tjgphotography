@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_position_01
+    - paragraphs.paragraphs_type.panel_hero
+  module:
+    - options
+id: paragraph.panel_hero.field_text_position_01
+field_name: field_text_position_01
+entity_type: paragraph
+bundle: panel_hero
+label: 'Text Position'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

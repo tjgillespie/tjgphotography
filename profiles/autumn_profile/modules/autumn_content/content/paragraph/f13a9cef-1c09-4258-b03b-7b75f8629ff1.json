@@ -1,0 +1,101 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_legal"
+        }
+    },
+    "id": [
+        {
+            "value": 111
+        }
+    ],
+    "uuid": [
+        {
+            "value": "f13a9cef-1c09-4258-b03b-7b75f8629ff1"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 134
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "panel_legal"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-01-29T13:25:48+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "14"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_paragraphs_unlimited_01"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "field_area_01": [
+        {
+            "value": "<h2>Credits:<\/h2>\r\n\r\n<h4>Photos of nature<\/h4>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<ul>\r\n\t<li>Annie Spratt on Unsplash<\/li>\r\n<\/ul>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4>Photos of dogs<\/h4>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<ul>\r\n\t<li>Baptist Standaert on Unsplash<\/li>\r\n\t<li>Celine Sayuri Tagami on Unsplash<\/li>\r\n\t<li>Eddy Lackmann on Unsplash<\/li>\r\n\t<li>Jamie Street on Unsplash<\/li>\r\n\t<li>Jos\u00e9phine Menge on Unsplash<\/li>\r\n\t<li>Lui Peng on Unsplash<\/li>\r\n\t<li>Marcus Cramer on Unsplash<\/li>\r\n<\/ul>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h4>Unsplash Link<\/h4>\r\n\r\n<p><a href=\"https:\/\/unsplash.com\/\">https:\/\/unsplash.com\/<\/a><\/p>\r\n\r\n<h4>Placeholder Video<\/h4>\r\n\r\n<p><a href=\"https:\/\/www.youtube.com\/watch?v=hNQFjqDvPhA&amp;feature=emb_title\">Drone 4k free footage - fly through light house Free stock video 2016 on YouTube<\/a><\/p>\r\n",
+            "format": "full_html",
+            "processed": "<h2>Credits:<\/h2>\n\n<h4>Photos of nature<\/h4>\n\n<p>\u00a0<\/p>\n\n<ul>\n\t<li>Annie Spratt on Unsplash<\/li>\n<\/ul>\n\n<p>\u00a0<\/p>\n\n<h4>Photos of dogs<\/h4>\n\n<p>\u00a0<\/p>\n\n<ul>\n\t<li>Baptist Standaert on Unsplash<\/li>\n\t<li>Celine Sayuri Tagami on Unsplash<\/li>\n\t<li>Eddy Lackmann on Unsplash<\/li>\n\t<li>Jamie Street on Unsplash<\/li>\n\t<li>Jos\u00e9phine Menge on Unsplash<\/li>\n\t<li>Lui Peng on Unsplash<\/li>\n\t<li>Marcus Cramer on Unsplash<\/li>\n<\/ul>\n\n<p>\u00a0<\/p>\n\n<h4>Unsplash Link<\/h4>\n\n<p><a href=\"https:\/\/unsplash.com\/\">https:\/\/unsplash.com\/<\/a><\/p>\n\n<h4>Placeholder Video<\/h4>\n\n<p><a href=\"https:\/\/www.youtube.com\/watch?v=hNQFjqDvPhA&amp;feature=emb_title\">Drone 4k free footage - fly through light house Free stock video 2016 on YouTube<\/a><\/p>\n",
+            "lang": "en"
+        }
+    ]
+}

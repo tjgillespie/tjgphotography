@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_extra_spacing
+    - paragraphs.paragraphs_type.element_partner
+id: paragraph.element_partner.field_extra_spacing
+field_name: field_extra_spacing
+entity_type: paragraph
+bundle: element_partner
+label: 'Extra Spacing'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

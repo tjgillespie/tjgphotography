@@ -1,0 +1,125 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/element_about"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/element_about\/field_image_01": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2020-01\/4_5.jpg"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 104
+        }
+    ],
+    "uuid": [
+        {
+            "value": "13e34b97-ea5f-4517-96b0-9ba55fcbca0d"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 127
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "element_about"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-01-29T12:26:18+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "15"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "paragraph"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_paragraph_unlimited_01"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "field_area_01": [
+        {
+            "value": "<h4>Jack<\/h4>\r\n\r\n<h6 class=\"subtitle\">Developer<\/h6>\r\n\r\n<p>This is an example if you don't want to put a hover overlay on top of the image. You can leave that empty.<\/p>\r\n",
+            "format": "full_html",
+            "processed": "<h4>Jack<\/h4>\n\n<h6 class=\"subtitle\">Developer<\/h6>\n\n<p>This is an example if you don't want to put a hover overlay on top of the image. You can leave that empty.<\/p>\n",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/element_about\/field_image_01": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2020-01\/4_5.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "96977a00-9a8c-4105-a4e5-2950a02e7e99"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_area_01
+    - paragraphs.paragraphs_type.element_image_grid_image_slider
+  module:
+    - text
+id: paragraph.element_image_grid_image_slider.field_area_01
+field_name: field_area_01
+entity_type: paragraph
+bundle: element_image_grid_image_slider
+label: Text
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

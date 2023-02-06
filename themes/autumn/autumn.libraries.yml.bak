@@ -1,0 +1,30 @@
+global-styling:
+  version: 2.0001
+  css:
+    base:
+      css/main.css: {}
+      js/vendor/slick.css: {}
+  js:
+    js/vendor/slick.min.js: {}
+    js/vendor/jquery.filterizr.min.js: {}
+    js/vendor/jquery.cookie.js: {}
+    https://www.youtube.com/iframe_api: { external: true }
+    js/main.js: {}
+    js/drupal-custom.js: {}
+    js/blog.js: {}
+    templates/components/panel-about/index.js: {}
+    templates/components/panel-bg-with-text/index.js: {}
+    templates/components/panel-faq/index.js: {}
+    templates/components/panel-hero/index.js: {}
+    templates/components/panel-image-grid/index.js: {}
+    templates/components/panel-partner/index.js: {}
+    templates/components/panel-usp/index.js: {}
+  dependencies:
+    - core/jquery
+    - core/modernizr
+
+custom-styling:
+  version: 1.0
+  css:
+    theme:
+      public://_autumn-custom.css: {}

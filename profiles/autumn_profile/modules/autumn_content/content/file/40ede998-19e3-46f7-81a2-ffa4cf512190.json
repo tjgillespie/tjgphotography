@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/sites\/default\/files\/2020-01\/drupal_1.png"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 41
+        }
+    ],
+    "uuid": [
+        {
+            "value": "40ede998-19e3-46f7-81a2-ffa4cf512190"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "593725a5-39c0-477b-aa95-9270f95ae23d"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "drupal_1.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2020-01\/drupal_1.png",
+            "url": "\/sites\/default\/files\/2020-01\/drupal_1.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 6000
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-01-23T17:47:14+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-01-23T17:47:47+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

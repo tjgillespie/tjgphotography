@@ -1,0 +1,234 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/element_about"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/element_about\/field_image_01": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2020-01\/2_7.jpg"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/element_about\/field_paragraph_unlimited_01": [
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 97
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d639445a-ef6e-4c34-b4da-891d2d0114c0"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 120
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "element_about"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-01-29T12:20:24+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "15"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "paragraph"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_paragraph_unlimited_01"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "field_area_01": [
+        {
+            "value": "<h4>Charlie<\/h4>\r\n\r\n<h6 class=\"subtitle\">Co-Founder<\/h6>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare sem sit.<\/p>\r\n",
+            "format": "full_html",
+            "processed": "<h4>Charlie<\/h4>\n\n<h6 class=\"subtitle\">Co-Founder<\/h6>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare sem sit.<\/p>\n",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/element_about\/field_image_01": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2020-01\/2_7.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5395f1ca-dddf-4f57-b8fa-a685a50ebf46"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/element_about\/field_paragraph_unlimited_01": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/element_about_hover_link"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1b860bf5-e3af-4f63-abe2-5d20c93df0f6"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "115"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/element_about_hover_link"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "90e67a76-5370-4e80-b616-a18a1162663c"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "116"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/element_about_hover_link"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0efadef4-e5d8-46ca-bc6a-c8d97bfc8958"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "117"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/element_about_hover_link"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "02ff6da2-e99c-4c57-bb65-756f4999b9e1"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "118"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/element_about_hover_link"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "419d7950-073b-4aa4-97e3-9ff535827fd8"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "119"
+            }
+        ]
+    }
+}

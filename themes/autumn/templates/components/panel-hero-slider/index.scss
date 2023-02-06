@@ -1,0 +1,41 @@
+.panel-hero-slider{
+  &:first-of-type{
+    padding-top: 0 !important;
+  }
+
+  .panel-hero{
+    height: 100vh !important;
+    overflow: hidden;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .slick-dots{
+    bottom: 30px;
+
+    @media only screen and (min-width: 2000px) {
+      bottom: 1.5vw;
+    }
+  }
+
+  .slick-track,
+  .slick-list{
+    height: 100vh;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .inner-text-layer{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .slider-navi{
+      &.slider-next{
+        right: 0;
+      }
+      &.slider-prev{
+        left: 0;
+      }
+    }
+  }
+}

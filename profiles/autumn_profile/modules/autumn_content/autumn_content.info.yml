@@ -1,0 +1,8 @@
+name: 'Default content autumn'
+type: module
+hidden: TRUE
+description: 'Default content autumn'
+package: Web services
+dependencies:
+  - default_content:default_content
+core_version_requirement: ^9 || ^10

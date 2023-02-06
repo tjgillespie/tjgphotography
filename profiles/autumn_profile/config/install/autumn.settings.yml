@@ -1,0 +1,24 @@
+features:
+  node_user_picture: 1
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+logo:
+  use_default: 1
+favicon:
+  use_default: 1
+autumn_parallax: 1
+autumn_fade_in: 1
+autumn_blogurl: blog
+autumn_color_font_main: '#ffffff'
+autumn_color_font_secondary: '#ccac92'
+autumn_color_font_dark: '#000000'
+autumn_color_bg_main: '#191919'
+autumn_color_bg_secondary: '#2d2d2d'
+autumn_color_btn_main: '#ccac92'
+autumn_color_btn_main_hover: '#000000'
+autumn_color_btn_secondary: '#ffffff'
+autumn_color_btn_secondary_hover: '#000000'
+autumn_color_text_read_dark: '#000000'
+autumn_color_text_read_bright: '#ffffff'
+custom_css: 0

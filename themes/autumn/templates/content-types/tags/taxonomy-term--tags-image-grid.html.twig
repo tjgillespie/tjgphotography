@@ -1,0 +1,5 @@
+{% if view_mode == 'teaser' %}
+  {{ name|render|striptags|trim }}
+{% else %}
+  <h3 class="filter-trigger" data-filter="{{ name|render|striptags|trim }}">{{ name }}</h3>
+{% endif %}

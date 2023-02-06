@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_text_01
+    - node.type.global_blog_sidebar
+id: node.global_blog_sidebar.field_text_01
+field_name: field_text_01
+entity_type: node
+bundle: global_blog_sidebar
+label: 'Search Title'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

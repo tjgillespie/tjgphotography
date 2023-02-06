@@ -1,0 +1,1 @@
+{% for item in items %}{% if loop.last %}{{ item.content|render|striptags|trim }}{% else %}{{ item.content|render|striptags|trim }},{% endif %}{% endfor %}

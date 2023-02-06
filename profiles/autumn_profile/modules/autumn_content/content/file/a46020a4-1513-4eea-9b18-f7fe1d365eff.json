@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/sites\/default\/files\/2020-01\/3_7.jpg"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 96
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a46020a4-1513-4eea-9b18-f7fe1d365eff"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "593725a5-39c0-477b-aa95-9270f95ae23d"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "3_7.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2020-01\/3_7.jpg",
+            "url": "\/sites\/default\/files\/2020-01\/3_7.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 60672
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-01-29T12:23:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-01-29T12:24:42+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

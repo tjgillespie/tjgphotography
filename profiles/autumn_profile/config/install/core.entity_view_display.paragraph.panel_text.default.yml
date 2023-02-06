@@ -1,0 +1,41 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.panel_text.field_area_01
+    - field.field.paragraph.panel_text.field_extra_padding_01
+    - field.field.paragraph.panel_text.field_scroll_id
+    - paragraphs.paragraphs_type.panel_text
+  module:
+    - text
+id: paragraph.panel_text.default
+targetEntityType: paragraph
+bundle: panel_text
+mode: default
+content:
+  field_area_01:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_extra_padding_01:
+    type: boolean
+    label: above
+    settings:
+      format: boolean
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_scroll_id:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

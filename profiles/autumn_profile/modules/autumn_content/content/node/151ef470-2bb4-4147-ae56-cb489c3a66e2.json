@@ -1,0 +1,1578 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/home?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/page_default"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/page_default\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/page_default\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "de"
+            },
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "es"
+            },
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "fr"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/page_default\/field_paragraphs_unlimited_01": [
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "de"
+            },
+            {
+                "href": "",
+                "lang": "de"
+            },
+            {
+                "href": "",
+                "lang": "de"
+            },
+            {
+                "href": "",
+                "lang": "de"
+            },
+            {
+                "href": "",
+                "lang": "de"
+            },
+            {
+                "href": "",
+                "lang": "de"
+            },
+            {
+                "href": "",
+                "lang": "de"
+            },
+            {
+                "href": "",
+                "lang": "de"
+            },
+            {
+                "href": "",
+                "lang": "de"
+            },
+            {
+                "href": "",
+                "lang": "de"
+            },
+            {
+                "href": "",
+                "lang": "de"
+            },
+            {
+                "href": "",
+                "lang": "de"
+            },
+            {
+                "href": "",
+                "lang": "de"
+            },
+            {
+                "href": "",
+                "lang": "de"
+            },
+            {
+                "href": "",
+                "lang": "es"
+            },
+            {
+                "href": "",
+                "lang": "es"
+            },
+            {
+                "href": "",
+                "lang": "es"
+            },
+            {
+                "href": "",
+                "lang": "es"
+            },
+            {
+                "href": "",
+                "lang": "es"
+            },
+            {
+                "href": "",
+                "lang": "es"
+            },
+            {
+                "href": "",
+                "lang": "es"
+            },
+            {
+                "href": "",
+                "lang": "es"
+            },
+            {
+                "href": "",
+                "lang": "es"
+            },
+            {
+                "href": "",
+                "lang": "es"
+            },
+            {
+                "href": "",
+                "lang": "es"
+            },
+            {
+                "href": "",
+                "lang": "es"
+            },
+            {
+                "href": "",
+                "lang": "es"
+            },
+            {
+                "href": "",
+                "lang": "es"
+            },
+            {
+                "href": "",
+                "lang": "fr"
+            },
+            {
+                "href": "",
+                "lang": "fr"
+            },
+            {
+                "href": "",
+                "lang": "fr"
+            },
+            {
+                "href": "",
+                "lang": "fr"
+            },
+            {
+                "href": "",
+                "lang": "fr"
+            },
+            {
+                "href": "",
+                "lang": "fr"
+            },
+            {
+                "href": "",
+                "lang": "fr"
+            },
+            {
+                "href": "",
+                "lang": "fr"
+            },
+            {
+                "href": "",
+                "lang": "fr"
+            },
+            {
+                "href": "",
+                "lang": "fr"
+            },
+            {
+                "href": "",
+                "lang": "fr"
+            },
+            {
+                "href": "",
+                "lang": "fr"
+            },
+            {
+                "href": "",
+                "lang": "fr"
+            },
+            {
+                "href": "",
+                "lang": "fr"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "151ef470-2bb4-4147-ae56-cb489c3a66e2"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        },
+        {
+            "value": "de",
+            "lang": "de"
+        },
+        {
+            "value": "es",
+            "lang": "es"
+        },
+        {
+            "value": "fr",
+            "lang": "fr"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page_default"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-01-20T15:54:30+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/page_default\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "593725a5-39c0-477b-aa95-9270f95ae23d"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/page_default\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "593725a5-39c0-477b-aa95-9270f95ae23d"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "593725a5-39c0-477b-aa95-9270f95ae23d"
+                    }
+                ],
+                "lang": "de"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "593725a5-39c0-477b-aa95-9270f95ae23d"
+                    }
+                ],
+                "lang": "es"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "593725a5-39c0-477b-aa95-9270f95ae23d"
+                    }
+                ],
+                "lang": "fr"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/page_default\/field_paragraphs_unlimited_01": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_hero"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e26e108e-650c-4438-bc8d-fa4372741092"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "1"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_text"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7a4b837b-6ab8-4aeb-9b15-fb7bfdf8f2c2"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "2"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_image_grid"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5e95633f-473a-4209-b602-43626f1c0e5d"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "4"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_background_image_with_text"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e34f7129-e3d9-481c-9c19-23468e758f45"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "8"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_about"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b74549e0-a799-4bb2-95e4-4fdf8d606842"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "15"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_hero_slider"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2f491ad3-506f-4936-a55f-dfe0a999d1a0"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "19"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_usp"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "dca853cb-7908-44df-9af8-a1a9d303b711"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "20"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_background_image_with_text"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "abe6d648-2f36-47a0-80cf-65b61b8f14ba"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "24"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_blog_teaser"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7fb3a482-8d55-4669-91e8-a7f94c603137"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "38"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_banner"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "76cd7995-fc9e-41b7-9740-b6e29321d598"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "25"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_faq"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1d811386-5d00-48fd-8a29-3037b81b6127"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "26"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_quotes"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "db5606f5-f592-4aba-9649-8e79eacdc1da"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "36"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_partnerships"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "44b3dc2d-8326-4a83-aee7-668e9a0bfe55"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "37"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_contact"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "de03b82d-77e4-4e6c-bcf8-f9e4706544a4"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "64"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_hero"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e26e108e-650c-4438-bc8d-fa4372741092"
+                    }
+                ],
+                "lang": "de",
+                "target_revision_id": "1"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_text"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7a4b837b-6ab8-4aeb-9b15-fb7bfdf8f2c2"
+                    }
+                ],
+                "lang": "de",
+                "target_revision_id": "2"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_image_grid"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5e95633f-473a-4209-b602-43626f1c0e5d"
+                    }
+                ],
+                "lang": "de",
+                "target_revision_id": "4"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_background_image_with_text"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e34f7129-e3d9-481c-9c19-23468e758f45"
+                    }
+                ],
+                "lang": "de",
+                "target_revision_id": "8"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_about"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b74549e0-a799-4bb2-95e4-4fdf8d606842"
+                    }
+                ],
+                "lang": "de",
+                "target_revision_id": "15"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_hero_slider"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2f491ad3-506f-4936-a55f-dfe0a999d1a0"
+                    }
+                ],
+                "lang": "de",
+                "target_revision_id": "19"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_usp"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "dca853cb-7908-44df-9af8-a1a9d303b711"
+                    }
+                ],
+                "lang": "de",
+                "target_revision_id": "20"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_background_image_with_text"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "abe6d648-2f36-47a0-80cf-65b61b8f14ba"
+                    }
+                ],
+                "lang": "de",
+                "target_revision_id": "24"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_blog_teaser"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7fb3a482-8d55-4669-91e8-a7f94c603137"
+                    }
+                ],
+                "lang": "de",
+                "target_revision_id": "38"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_banner"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "76cd7995-fc9e-41b7-9740-b6e29321d598"
+                    }
+                ],
+                "lang": "de",
+                "target_revision_id": "25"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_faq"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1d811386-5d00-48fd-8a29-3037b81b6127"
+                    }
+                ],
+                "lang": "de",
+                "target_revision_id": "26"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_quotes"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "db5606f5-f592-4aba-9649-8e79eacdc1da"
+                    }
+                ],
+                "lang": "de",
+                "target_revision_id": "36"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_partnerships"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "44b3dc2d-8326-4a83-aee7-668e9a0bfe55"
+                    }
+                ],
+                "lang": "de",
+                "target_revision_id": "37"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_contact"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "de03b82d-77e4-4e6c-bcf8-f9e4706544a4"
+                    }
+                ],
+                "lang": "de",
+                "target_revision_id": "64"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_hero"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e26e108e-650c-4438-bc8d-fa4372741092"
+                    }
+                ],
+                "lang": "es",
+                "target_revision_id": "1"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_text"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7a4b837b-6ab8-4aeb-9b15-fb7bfdf8f2c2"
+                    }
+                ],
+                "lang": "es",
+                "target_revision_id": "2"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_image_grid"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5e95633f-473a-4209-b602-43626f1c0e5d"
+                    }
+                ],
+                "lang": "es",
+                "target_revision_id": "4"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_background_image_with_text"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e34f7129-e3d9-481c-9c19-23468e758f45"
+                    }
+                ],
+                "lang": "es",
+                "target_revision_id": "8"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_about"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b74549e0-a799-4bb2-95e4-4fdf8d606842"
+                    }
+                ],
+                "lang": "es",
+                "target_revision_id": "15"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_hero_slider"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2f491ad3-506f-4936-a55f-dfe0a999d1a0"
+                    }
+                ],
+                "lang": "es",
+                "target_revision_id": "19"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_usp"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "dca853cb-7908-44df-9af8-a1a9d303b711"
+                    }
+                ],
+                "lang": "es",
+                "target_revision_id": "20"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_background_image_with_text"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "abe6d648-2f36-47a0-80cf-65b61b8f14ba"
+                    }
+                ],
+                "lang": "es",
+                "target_revision_id": "24"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_blog_teaser"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7fb3a482-8d55-4669-91e8-a7f94c603137"
+                    }
+                ],
+                "lang": "es",
+                "target_revision_id": "38"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_banner"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "76cd7995-fc9e-41b7-9740-b6e29321d598"
+                    }
+                ],
+                "lang": "es",
+                "target_revision_id": "25"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_faq"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1d811386-5d00-48fd-8a29-3037b81b6127"
+                    }
+                ],
+                "lang": "es",
+                "target_revision_id": "26"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_quotes"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "db5606f5-f592-4aba-9649-8e79eacdc1da"
+                    }
+                ],
+                "lang": "es",
+                "target_revision_id": "36"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_partnerships"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "44b3dc2d-8326-4a83-aee7-668e9a0bfe55"
+                    }
+                ],
+                "lang": "es",
+                "target_revision_id": "37"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_contact"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "de03b82d-77e4-4e6c-bcf8-f9e4706544a4"
+                    }
+                ],
+                "lang": "es",
+                "target_revision_id": "64"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_hero"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e26e108e-650c-4438-bc8d-fa4372741092"
+                    }
+                ],
+                "lang": "fr",
+                "target_revision_id": "1"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_text"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7a4b837b-6ab8-4aeb-9b15-fb7bfdf8f2c2"
+                    }
+                ],
+                "lang": "fr",
+                "target_revision_id": "2"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_image_grid"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5e95633f-473a-4209-b602-43626f1c0e5d"
+                    }
+                ],
+                "lang": "fr",
+                "target_revision_id": "4"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_background_image_with_text"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e34f7129-e3d9-481c-9c19-23468e758f45"
+                    }
+                ],
+                "lang": "fr",
+                "target_revision_id": "8"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_about"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b74549e0-a799-4bb2-95e4-4fdf8d606842"
+                    }
+                ],
+                "lang": "fr",
+                "target_revision_id": "15"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_hero_slider"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2f491ad3-506f-4936-a55f-dfe0a999d1a0"
+                    }
+                ],
+                "lang": "fr",
+                "target_revision_id": "19"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_usp"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "dca853cb-7908-44df-9af8-a1a9d303b711"
+                    }
+                ],
+                "lang": "fr",
+                "target_revision_id": "20"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_background_image_with_text"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "abe6d648-2f36-47a0-80cf-65b61b8f14ba"
+                    }
+                ],
+                "lang": "fr",
+                "target_revision_id": "24"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_blog_teaser"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7fb3a482-8d55-4669-91e8-a7f94c603137"
+                    }
+                ],
+                "lang": "fr",
+                "target_revision_id": "38"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_banner"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "76cd7995-fc9e-41b7-9740-b6e29321d598"
+                    }
+                ],
+                "lang": "fr",
+                "target_revision_id": "25"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_faq"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1d811386-5d00-48fd-8a29-3037b81b6127"
+                    }
+                ],
+                "lang": "fr",
+                "target_revision_id": "26"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_quotes"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "db5606f5-f592-4aba-9649-8e79eacdc1da"
+                    }
+                ],
+                "lang": "fr",
+                "target_revision_id": "36"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_partnerships"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "44b3dc2d-8326-4a83-aee7-668e9a0bfe55"
+                    }
+                ],
+                "lang": "fr",
+                "target_revision_id": "37"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_contact"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "de03b82d-77e4-4e6c-bcf8-f9e4706544a4"
+                    }
+                ],
+                "lang": "fr",
+                "target_revision_id": "64"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "de"
+        },
+        {
+            "value": true,
+            "lang": "es"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "title": [
+        {
+            "value": "Home",
+            "lang": "en"
+        },
+        {
+            "value": "Home",
+            "lang": "de"
+        },
+        {
+            "value": "Home",
+            "lang": "es"
+        },
+        {
+            "value": "Home",
+            "lang": "fr"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-01-20T15:54:00+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2021-02-12T00:04:29+00:00",
+            "lang": "de",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2021-02-12T00:05:26+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2021-02-12T00:08:44+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2021-02-12T19:13:13+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2021-02-12T00:08:30+00:00",
+            "lang": "de",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2021-02-12T00:07:47+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2021-02-12T00:09:21+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "de"
+        },
+        {
+            "value": false,
+            "lang": "es"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "de"
+        },
+        {
+            "value": false,
+            "lang": "es"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "de"
+        },
+        {
+            "value": false,
+            "lang": "es"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "de"
+        },
+        {
+            "value": true,
+            "lang": "es"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "canonical_url": "http:\/\/default\/home",
+                "title": "Home | theme autumn - by michael stauner",
+                "description": "show your awesome portfolio"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/home",
+            "pid": 18,
+            "langcode": "en",
+            "lang": "en"
+        },
+        {
+            "alias": "\/home",
+            "pid": 25,
+            "langcode": "de",
+            "lang": "de"
+        },
+        {
+            "alias": "\/home",
+            "pid": 26,
+            "langcode": "es",
+            "lang": "es"
+        },
+        {
+            "alias": "\/home",
+            "pid": 27,
+            "langcode": "fr",
+            "lang": "fr"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "de"
+        },
+        {
+            "value": "en",
+            "lang": "es"
+        },
+        {
+            "value": "en",
+            "lang": "fr"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "de"
+        },
+        {
+            "value": false,
+            "lang": "es"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        }
+    ],
+    "field_meta_tags": [
+        {
+            "value": {
+                "description": "show your awesome portfolio"
+            },
+            "lang": "en"
+        }
+    ],
+    "field_sticky_after_scroll": [
+        {
+            "value": true
+        }
+    ]
+}

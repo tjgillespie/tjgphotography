@@ -1,0 +1,96 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/taxonomy\/term\/9?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/blog_categories"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/blog_categories\/parent": [
+            null
+        ]
+    },
+    "tid": [
+        {
+            "value": 9
+        }
+    ],
+    "uuid": [
+        {
+            "value": "6164a9d2-166a-4b21-9e14-4ef8be49df94"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 9
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "blog_categories"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-01-22T10:31:54+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "Category 1"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/blog_categories\/parent": [
+            null
+        ]
+    },
+    "changed": [
+        {
+            "value": "2020-01-22T10:31:54+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ]
+}

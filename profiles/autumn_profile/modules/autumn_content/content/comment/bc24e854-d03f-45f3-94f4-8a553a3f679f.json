@@ -1,0 +1,130 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/comment\/16?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/comment\/custom_comment"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/comment\/custom_comment\/uid": [
+            {
+                "href": "http:\/\/default\/user\/0?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/comment\/custom_comment\/entity_id": [
+            {
+                "href": "http:\/\/default\/node\/18?_format=hal_json"
+            }
+        ]
+    },
+    "cid": [
+        {
+            "value": 16
+        }
+    ],
+    "uuid": [
+        {
+            "value": "bc24e854-d03f-45f3-94f4-8a553a3f679f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "comment_type": [
+        {
+            "target_id": "custom_comment"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/comment\/custom_comment\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/0?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f8360240-3fb2-475f-85bb-2990aad63695"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/comment\/custom_comment\/entity_id": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/18?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/page_blog_post"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "39cb986c-084c-44e7-9893-d293062a0780"
+                    }
+                ]
+            }
+        ]
+    },
+    "subject": [
+        {
+            "value": "(No subject)"
+        }
+    ],
+    "name": [
+        {
+            "value": "james"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-02-17T14:34:26+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-02-17T14:35:44+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "thread": [
+        {
+            "value": "02\/"
+        }
+    ],
+    "entity_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "field_name": [
+        {
+            "value": "field_comments"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_comment_text": [
+        {
+            "value": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+        }
+    ]
+}

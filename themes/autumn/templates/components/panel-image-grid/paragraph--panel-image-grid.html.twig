@@ -1,0 +1,86 @@
+{% set scrollIdBool = false %}
+{% if content.field_scroll_id|render %}
+  {% set scrollIdBool = true %}
+  {% set scrollIdVal = content.field_scroll_id|render|striptags|trim|replace({'#': ''}) %}
+{% endif %}
+
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished',
+    'panel-image-grid default-panel-padding'
+  ]
+%}
+
+<section {{ attributes.addClass(classes) }} {% if scrollIdBool %} id="{{scrollIdVal}}"{% endif %} data-paragraph-id="{{ paragraph.id() }}">
+  {{ title_suffix }}
+
+  <div class="filter-bar">
+    {{ content.field_taxonomy_unlimited_01 }}
+
+    <div class="icon-filter mobile">
+      <i class="fas fa-chevron-down"></i>
+    </div>
+
+    <div class="mobile-dropdown mobile" style="display:none;">
+      {{ content.field_taxonomy_unlimited_01 }}
+    </div>
+  </div>
+
+  <div class="filter-container grid-outer-wrap">
+    {{ content.field_paragraph_unlimited_01 }}
+  </div>
+
+  <div class="popup popup-image-slider" data-id="1" style="display:none;color:white;">
+    <div class="close-icon">
+      <i class="fas fa-times"></i>
+    </div>
+
+    <div class="slider-prev slider-navi">
+      <i class="fas fa-chevron-left"></i>
+    </div>
+    <div class="slider-next slider-navi">
+      <i class="fas fa-chevron-right"></i>
+    </div>
+
+    <div class="inner-popup">
+      <div class="slider-wrap">
+        <!-- filled by js -->
+      </div>
+    </div>
+  </div>
+
+  <div class="popup popup-image" data-id="2" style="display:none;">
+    <div class="close-icon">
+      <i class="fas fa-times"></i>
+    </div>
+
+    <div class="inner-popup">
+      <img class="inner-image" src="">
+    </div>
+  </div>
+
+  <div class="popup popup-video" data-id="3" style="display:none;">
+    <div class="close-icon">
+      <i class="fas fa-times"></i>
+    </div>
+
+    <div class="inner-popup">
+      <div class="rel">
+        <div class="inner-image">
+          <div class="player-wrap">
+            <div class="ratio-wrap">
+              <div class="abs-wrap">
+                <div class="rel player-append-wrap">
+                  <div id="yt-player-wrap-panel-image-grid" class="abs-wrap"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

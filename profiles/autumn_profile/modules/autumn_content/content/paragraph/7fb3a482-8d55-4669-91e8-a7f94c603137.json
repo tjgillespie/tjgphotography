@@ -1,0 +1,287 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_blog_teaser"
+        }
+    },
+    "id": [
+        {
+            "value": 38
+        }
+    ],
+    "uuid": [
+        {
+            "value": "7fb3a482-8d55-4669-91e8-a7f94c603137"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 38
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        },
+        {
+            "value": "de",
+            "lang": "de"
+        },
+        {
+            "value": "es",
+            "lang": "es"
+        },
+        {
+            "value": "fr",
+            "lang": "fr"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "panel_blog_teaser"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "de"
+        },
+        {
+            "value": true,
+            "lang": "es"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-01-21T12:56:31+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2020-01-21T12:56:31+00:00",
+            "lang": "de",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2020-01-21T12:56:31+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2020-01-21T12:56:31+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "1"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_paragraphs_unlimited_01"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "de"
+        },
+        {
+            "value": false,
+            "lang": "es"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "de"
+        },
+        {
+            "value": true,
+            "lang": "es"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "de"
+        },
+        {
+            "value": "en",
+            "lang": "es"
+        },
+        {
+            "value": "en",
+            "lang": "fr"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "de"
+        },
+        {
+            "value": false,
+            "lang": "es"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        }
+    ],
+    "field_area_01": [
+        {
+            "value": "<h2>Blog<\/h2>\r\n\r\n<hr \/>",
+            "format": "full_html",
+            "processed": "<h2>Blog<\/h2>\n\n<hr \/>",
+            "lang": "en"
+        },
+        {
+            "value": "<h2>Blog<\/h2>\r\n\r\n<hr \/>",
+            "format": "full_html",
+            "processed": "<h2>Blog<\/h2>\n\n<hr \/>",
+            "lang": "de"
+        },
+        {
+            "value": "<h2>Blog<\/h2>\r\n\r\n<hr \/>",
+            "format": "full_html",
+            "processed": "<h2>Blog<\/h2>\n\n<hr \/>",
+            "lang": "es"
+        },
+        {
+            "value": "<h2>Blog<\/h2>\r\n\r\n<hr \/>",
+            "format": "full_html",
+            "processed": "<h2>Blog<\/h2>\n\n<hr \/>",
+            "lang": "fr"
+        }
+    ],
+    "field_block_01": [
+        {
+            "plugin_id": "views_block:last_x_blog_posts-block_1",
+            "settings": {
+                "id": "views_block:last_x_blog_posts-block_1",
+                "label": "",
+                "provider": "views",
+                "label_display": false,
+                "views_label": "",
+                "items_per_page": "none"
+            },
+            "lang": "en"
+        },
+        {
+            "plugin_id": "views_block:last_x_blog_posts-block_1",
+            "settings": {
+                "id": "views_block:last_x_blog_posts-block_1",
+                "label": "",
+                "provider": "views",
+                "label_display": false,
+                "views_label": "",
+                "items_per_page": "none"
+            },
+            "lang": "de"
+        },
+        {
+            "plugin_id": "views_block:last_x_blog_posts-block_1",
+            "settings": {
+                "id": "views_block:last_x_blog_posts-block_1",
+                "label": "",
+                "provider": "views",
+                "label_display": false,
+                "views_label": "",
+                "items_per_page": "none"
+            },
+            "lang": "es"
+        },
+        {
+            "plugin_id": "views_block:last_x_blog_posts-block_1",
+            "settings": {
+                "id": "views_block:last_x_blog_posts-block_1",
+                "label": "",
+                "provider": "views",
+                "label_display": false,
+                "views_label": "",
+                "items_per_page": "none"
+            },
+            "lang": "fr"
+        }
+    ],
+    "field_link_01": [
+        {
+            "uri": "internal:\/node\/5",
+            "title": "view blog",
+            "options": [],
+            "lang": "en"
+        },
+        {
+            "uri": "internal:\/node\/5",
+            "title": "view blog",
+            "options": [],
+            "lang": "de"
+        },
+        {
+            "uri": "internal:\/node\/5",
+            "title": "view blog",
+            "options": [],
+            "lang": "es"
+        },
+        {
+            "uri": "internal:\/node\/5",
+            "title": "view blog",
+            "options": [],
+            "lang": "fr"
+        }
+    ],
+    "field_scroll_id": [
+        {
+            "value": "blog"
+        }
+    ]
+}

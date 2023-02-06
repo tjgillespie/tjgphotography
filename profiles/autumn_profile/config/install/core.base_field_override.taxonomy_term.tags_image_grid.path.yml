@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tags_image_grid
+  module:
+    - path
+id: taxonomy_term.tags_image_grid.path
+field_name: path
+entity_type: taxonomy_term
+bundle: tags_image_grid
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

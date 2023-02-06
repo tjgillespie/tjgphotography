@@ -1,0 +1,36 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.global_blog_sidebar.field_block_01
+    - field.field.node.global_blog_sidebar.field_block_02
+    - field.field.node.global_blog_sidebar.field_block_03
+    - field.field.node.global_blog_sidebar.field_block_04
+    - field.field.node.global_blog_sidebar.field_text_01
+    - field.field.node.global_blog_sidebar.field_text_02
+    - field.field.node.global_blog_sidebar.field_text_03
+    - field.field.node.global_blog_sidebar.field_text_04
+    - node.type.global_blog_sidebar
+  module:
+    - user
+id: node.global_blog_sidebar.teaser
+targetEntityType: node
+bundle: global_blog_sidebar
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_block_01: true
+  field_block_02: true
+  field_block_03: true
+  field_block_04: true
+  field_text_01: true
+  field_text_02: true
+  field_text_03: true
+  field_text_04: true
+  langcode: true

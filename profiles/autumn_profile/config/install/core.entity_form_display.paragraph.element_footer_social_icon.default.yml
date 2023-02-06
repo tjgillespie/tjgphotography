@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.element_footer_social_icon.field_icon_01
+    - field.field.paragraph.element_footer_social_icon.field_link_01
+    - paragraphs.paragraphs_type.element_footer_social_icon
+  module:
+    - fontawesome
+    - link
+id: paragraph.element_footer_social_icon.default
+targetEntityType: paragraph
+bundle: element_footer_social_icon
+mode: default
+content:
+  field_icon_01:
+    type: fontawesome_icon_widget
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_link_01:
+    type: link_default
+    weight: 0
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

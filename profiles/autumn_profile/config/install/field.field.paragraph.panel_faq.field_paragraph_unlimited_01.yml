@@ -1,0 +1,108 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_unlimited_01
+    - paragraphs.paragraphs_type.element_faq
+    - paragraphs.paragraphs_type.panel_faq
+  module:
+    - entity_reference_revisions
+id: paragraph.panel_faq.field_paragraph_unlimited_01
+field_name: field_paragraph_unlimited_01
+entity_type: paragraph
+bundle: panel_faq
+label: 'Elements Left'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      element_faq: element_faq
+    negate: 0
+    target_bundles_drag_drop:
+      element_about:
+        weight: 18
+        enabled: false
+      element_about_hover_link:
+        weight: 19
+        enabled: false
+      element_faq:
+        weight: 20
+        enabled: true
+      element_footer_social_icon:
+        weight: 31
+        enabled: false
+      element_image_grid_image_slider:
+        weight: 21
+        enabled: false
+      element_image_grid_single_image:
+        weight: 22
+        enabled: false
+      element_image_grid_youtube_video:
+        weight: 23
+        enabled: false
+      element_quote:
+        weight: 35
+        enabled: false
+      element_usp:
+        weight: 24
+        enabled: false
+      panel_about:
+        weight: 25
+        enabled: false
+      panel_background_image_with_text:
+        weight: 26
+        enabled: false
+      panel_banner:
+        weight: 27
+        enabled: false
+      panel_blog_image:
+        weight: 40
+        enabled: false
+      panel_blog_image_slider:
+        weight: 41
+        enabled: false
+      panel_blog_teaser:
+        weight: 28
+        enabled: false
+      panel_blog_text:
+        weight: 43
+        enabled: false
+      panel_blog_video:
+        weight: 44
+        enabled: false
+      panel_contact:
+        weight: 45
+        enabled: false
+      panel_faq:
+        weight: 29
+        enabled: false
+      panel_hero:
+        weight: 30
+        enabled: false
+      panel_hero_slider:
+        weight: 31
+        enabled: false
+      panel_image_grid:
+        weight: 32
+        enabled: false
+      panel_legal:
+        weight: 50
+        enabled: false
+      panel_partnerships:
+        weight: 51
+        enabled: false
+      panel_quotes:
+        weight: 52
+        enabled: false
+      panel_text:
+        weight: 33
+        enabled: false
+      panel_usp:
+        weight: 34
+        enabled: false
+field_type: entity_reference_revisions

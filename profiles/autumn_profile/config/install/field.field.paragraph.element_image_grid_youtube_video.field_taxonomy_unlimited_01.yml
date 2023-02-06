@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_taxonomy_unlimited_01
+    - paragraphs.paragraphs_type.element_image_grid_youtube_video
+    - taxonomy.vocabulary.tags_image_grid
+id: paragraph.element_image_grid_youtube_video.field_taxonomy_unlimited_01
+field_name: field_taxonomy_unlimited_01
+entity_type: paragraph
+bundle: element_image_grid_youtube_video
+label: Tags
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags_image_grid: tags_image_grid
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

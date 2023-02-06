@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Tags / Image Grid'
+vid: tags_image_grid
+description: ''
+weight: 0

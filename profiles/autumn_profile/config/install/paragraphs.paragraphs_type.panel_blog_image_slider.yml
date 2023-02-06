@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: panel_blog_image_slider
+label: 'Panel / Blog / Image Slider'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

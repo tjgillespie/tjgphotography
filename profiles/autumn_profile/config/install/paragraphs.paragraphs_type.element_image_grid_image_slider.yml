@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: element_image_grid_image_slider
+label: 'Element / Image Grid - Image Slider'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,48 @@
+custom_theme.dashboard:
+  title: 'Dashboard'
+  description: ''
+  parent: system.admin
+  url: internal:/admin/dashboard
+  weight: -50
+custom_theme.navifooter:
+  title: 'Edit navigation & footer'
+  description: ''
+  parent: custom_theme.dashboard
+  url: internal:/admin/structure/block/block-content
+  weight: 1
+custom_theme.edittags:
+  title: 'Edit tags'
+  description: ''
+  parent: custom_theme.dashboard
+  url: internal:/admin/structure/taxonomy
+  weight: 2
+custom_theme.listformsubmissions:
+  title: 'List form submissions'
+  description: ''
+  parent: custom_theme.dashboard
+  url: internal:/admin/structure/webform/submissions/manage
+  weight: 3
+custom_theme.listcomments:
+  title: 'List comments'
+  description: ''
+  parent: custom_theme.dashboard
+  url: internal:/admin/content/comment
+  weight: 4
+custom_theme.listcontent:
+  title: 'List content'
+  description: ''
+  parent: custom_theme.dashboard
+  url: internal:/admin/content
+  weight: 5
+custom_theme.addcontent:
+  title: 'Add content'
+  description: ''
+  parent: custom_theme.dashboard
+  url: internal:/node/add
+  weight: 6
+custom_theme.themedocs:
+  title: 'Theme Documentation'
+  description: ''
+  parent: custom_theme.dashboard
+  url: https://themes.michaelstauner.com/
+  weight: 7

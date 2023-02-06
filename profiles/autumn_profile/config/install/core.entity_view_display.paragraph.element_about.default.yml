@@ -1,0 +1,43 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.element_about.field_area_01
+    - field.field.paragraph.element_about.field_image_01
+    - field.field.paragraph.element_about.field_paragraph_unlimited_01
+    - paragraphs.paragraphs_type.element_about
+  module:
+    - entity_reference_revisions
+    - image
+    - text
+id: paragraph.element_about.default
+targetEntityType: paragraph
+bundle: element_about
+mode: default
+content:
+  field_area_01:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_image_01:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_paragraph_unlimited_01:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.blog_search
+  module:
+    - node
+    - views
+  theme:
+    - autumn
+id: views_block__blog_search_block_1
+theme: autumn
+region: content
+weight: -1
+provider: null
+plugin: 'views_block:blog_search-block_1'
+settings:
+  id: 'views_block:blog_search-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      page_blog_overview: page_blog_overview

@@ -1,0 +1,147 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/comment\/9?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/comment\/custom_comment"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/comment\/custom_comment\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/comment\/custom_comment\/pid": [
+            {
+                "href": "http:\/\/default\/comment\/8?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/comment\/custom_comment\/entity_id": [
+            {
+                "href": "http:\/\/default\/node\/20?_format=hal_json"
+            }
+        ]
+    },
+    "cid": [
+        {
+            "value": 9
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a720a927-3247-44a4-988d-77ba7763fcc2"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "comment_type": [
+        {
+            "target_id": "custom_comment"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/comment\/custom_comment\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "593725a5-39c0-477b-aa95-9270f95ae23d"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/comment\/custom_comment\/pid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/comment\/8?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/comment\/custom_comment"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "92e0530b-b702-4bd8-97c2-b9573e22d465"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/comment\/custom_comment\/entity_id": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/20?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/page_blog_post"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5fb72314-b8d6-49a1-9906-bfcf60e7f990"
+                    }
+                ]
+            }
+        ]
+    },
+    "subject": [
+        {
+            "value": "(No subject)"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-02-17T14:30:58+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-02-17T14:30:58+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "thread": [
+        {
+            "value": "01.00\/"
+        }
+    ],
+    "entity_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "field_name": [
+        {
+            "value": "field_comments"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_comment_text": [
+        {
+            "value": "This is a very good Question! So in fact... Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+        }
+    ]
+}

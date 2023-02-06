@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_text_02
+    - node.type.global_blog_sidebar
+id: node.global_blog_sidebar.field_text_02
+field_name: field_text_02
+entity_type: node
+bundle: global_blog_sidebar
+label: 'Categories Title'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,45 @@
+.panel-partner{
+  text-align: center;
+  overflow: hidden;
+
+  .slick-list{
+    overflow: visible;
+  }
+
+  .partner-slider-outer-wrap{
+    position: relative;
+  }
+
+  .partner-wrap{
+    height: 100px;
+    background-color: #f3f3f3;
+
+    @media only screen and (min-width: 2000px) {
+      height: 5vw;
+    }
+
+    &.needs-spacing{
+      padding: 20px;
+
+      @media only screen and (min-width: 2000px) {
+        padding: 1vw;
+      }
+    }
+
+    img{
+      height: 100%;
+      width: auto;
+      margin: 0 auto;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .partner-wrap{
+      height: 60px;
+
+      &.needs-spacing{
+        padding: 10px;
+      }
+    }
+  }
+}

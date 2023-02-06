@@ -1,0 +1,132 @@
+$maxLines: 2;
+
+.panel-blog-teaser{
+  .tags{
+    margin-bottom: 10px;
+
+    @media only screen and (min-width: 2000px) {
+      margin-bottom: 0.5vw;
+    }
+  }
+
+  .blog-post-tesaer-wrap {
+    &:after{
+      clear: both;
+      content: "";
+      display: block;
+    }
+  }
+
+  &.extra-padding-bottom{
+    padding-bottom: 100px;
+
+    @media only screen and (min-width: 2000px) {
+      margin-bottom: 5vw;
+    }
+
+    @media only screen and (max-width: 767px) {
+      padding-bottom: 0;
+    }
+  }
+
+  .blog-post-teaser-element {
+    width: calc(50% - #{$grid-spacing/2});
+    margin-top: 50px;
+
+    &:nth-child(odd){
+      float: left;
+    }
+
+    &:nth-child(even){
+      float: right;
+    }
+
+    &:nth-child(2){
+      margin-top: 80px;
+    }
+
+    &:first-of-type{
+      margin-top: 0;
+    }
+
+    .bg-image {
+      background-size: cover;
+      background-position: center;
+    }
+
+    .text-wrap {
+      padding: 20px;
+
+      .subtitle{
+        margin-top: 5px;
+        margin-bottom: 10px;
+      }
+
+      p{
+        max-height: $maxLines * $lineHeightP;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: $maxLines;
+      }
+    }
+
+    @media only screen and (min-width: 2000px) {
+      margin-top: 2.5vw;
+
+      &:nth-child(2){
+        margin-top: 4vw;
+      }
+
+      &:first-of-type{
+        margin-top: 0;
+      }
+
+      .text-wrap{
+        padding: 1vw;
+
+        .subtitle{
+          margin-top: 0.25vw;
+          margin-bottom: 0.5vw;
+        }
+
+        p{
+          max-height: $maxLines * $lineHeightPBigScreen
+        }
+      }
+    }
+  }
+
+  .btn-outer-wrap{
+    text-align: center;
+
+    .cta{
+      margin-top: 50px;
+
+      @media only screen and (min-width: 2000px) {
+        margin-top: 2.5vw;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .blog-post-teaser-element{
+      width: 100%;
+      margin-top: 25px;
+
+      &:nth-child(even),
+      &:nth-child(odd){
+        float: none;
+      }
+
+      &:nth-child(2){
+        margin-top: 25px;
+      }
+
+      &:first-of-type{
+        margin-top: 0;
+      }
+    }
+  }
+}

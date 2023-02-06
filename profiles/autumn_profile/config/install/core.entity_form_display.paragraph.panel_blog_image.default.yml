@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.panel_blog_image.field_image_01
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.panel_blog_image
+  module:
+    - image
+id: paragraph.panel_blog_image.default
+targetEntityType: paragraph
+bundle: panel_blog_image
+mode: default
+content:
+  field_image_01:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

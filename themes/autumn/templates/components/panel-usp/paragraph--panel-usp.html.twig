@@ -1,0 +1,45 @@
+{% set scrollIdBool = false %}
+{% if content.field_scroll_id|render %}
+  {% set scrollIdBool = true %}
+  {% set scrollIdVal = content.field_scroll_id|render|striptags|trim|replace({'#': ''}) %}
+{% endif %}
+
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished',
+    'panel-usp default-panel-padding'
+  ]
+%}
+
+<section {{ attributes.addClass(classes) }} {% if scrollIdBool %} id="{{scrollIdVal}}"{% endif %} data-paragraph-id="{{ paragraph.id() }}">
+  {{ title_suffix }}
+  <div class="max-width">
+    <div class="row row-headline">
+      <div class="col-12">
+        {{ content.field_area_01 }}
+      </div>
+    </div>
+  </div>
+
+  <div class="features-wrap">
+    <div class="slider-prev slider-navi">
+      <i class="fas fa-chevron-left"></i>
+    </div>
+    <div class="slider-next slider-navi">
+      <i class="fas fa-chevron-right"></i>
+    </div>
+
+    <div class="max-width">
+      <div class="row">
+        <div class="col-12">
+          <div class="usp-slider-wrap">
+            {{ content.field_paragraph_unlimited_01 }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

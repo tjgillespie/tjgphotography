@@ -1,0 +1,102 @@
+name: autumn_profile
+type: profile
+description: 'Install the theme "autumn" pre-configured and with the same content as in the demo.'
+keep_english: true
+core_version_requirement: ^8.8 || ^9
+
+install:
+  - admin_toolbar
+  - admin_toolbar_search
+  - admin_toolbar_tools
+  - adminimal_admin_toolbar
+  - advagg
+  - advagg_bundler
+  - advagg_cdn
+  - advagg_css_minify
+  - advagg_js_minify
+  - advagg_mod
+  - automated_cron
+  - big_pipe
+  - block
+  - block_content
+  - block_field
+  - breakpoint
+  - ckeditor
+  - color
+  - comment
+  - config
+  - config_distro
+  - config_distro_filter
+  - config_filter
+  - config_merge
+  - config_normalizer
+  - config_snapshot
+  - config_sync
+  - config_translation
+  - config_update
+  - contact
+  - contextual
+  - ctools
+  - custom_theme
+  - datetime
+  - dblog
+  - dynamic_page_cache
+  - editor
+  - entity_reference_revisions
+  - field
+  - field_group
+  - field_ui
+  - file
+  - file_delete
+  - filter
+  - fontawesome
+  - hal
+  - help
+  - history
+  - image
+  - language
+  - layout_discovery
+  - link
+  - locale
+  - menu_ui
+  - metatag
+  - node
+  - options
+  - page_cache
+  - page_manager
+  - page_manager_ui
+  - panels
+  - paragraphs_edit
+  - paragraphs_modal_edit
+  - path
+  - path_alias
+  - quickedit
+  - rdf
+  - search
+  - serialization
+  - shortcut
+  - system
+  - taxonomy
+  - text
+  - token
+  - toolbar
+  - tour
+  - update
+  - user
+  - views_ui
+  - webform
+  - webform_ui
+  - menu_link_content
+  - content_translation
+  - views
+  - paragraphs
+  - config_provider
+  - eu_cookie_compliance
+
+themes:
+  - stable
+  - classy
+  - bartik
+  - seven
+  - adminimal_theme
+  - autumn

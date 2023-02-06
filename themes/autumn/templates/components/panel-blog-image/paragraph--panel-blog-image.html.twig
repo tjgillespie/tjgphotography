@@ -1,0 +1,18 @@
+{% set img = file_url(paragraph.field_image_01.0.entity.uri.value) %}
+{% set imgAlt = paragraph.field_image_01.alt|render|striptags|trim %}
+
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished',
+    'image'
+  ]
+%}
+
+<div {{ attributes.addClass(classes) }}>
+  {{ title_suffix }}
+
+  <img src="{{ img }}" alt="{{ imgAlt }}">
+</div>

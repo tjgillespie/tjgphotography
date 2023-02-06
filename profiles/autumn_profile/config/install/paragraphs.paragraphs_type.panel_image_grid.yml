@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: panel_image_grid
+label: 'Panel / Image Grid'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

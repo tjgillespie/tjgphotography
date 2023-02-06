@@ -1,0 +1,85 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.panel_blog_teaser.field_area_01
+    - field.field.paragraph.panel_blog_teaser.field_block_01
+    - field.field.paragraph.panel_blog_teaser.field_link_01
+    - field.field.paragraph.panel_blog_teaser.field_scroll_id
+    - paragraphs.paragraphs_type.panel_blog_teaser
+  module:
+    - block_field
+    - field_group
+    - link
+    - text
+third_party_settings:
+  field_group:
+    group_content:
+      children:
+        - field_area_01
+        - field_block_01
+        - field_link_01
+      label: Content
+      region: content
+      parent_name: ''
+      weight: 2
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        id: ''
+        description: ''
+        required_fields: true
+    group_settings:
+      children:
+        - field_scroll_id
+      label: Settings
+      region: content
+      parent_name: ''
+      weight: 0
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        id: ''
+        description: ''
+        required_fields: true
+id: paragraph.panel_blog_teaser.default
+targetEntityType: paragraph
+bundle: panel_blog_teaser
+mode: default
+content:
+  field_area_01:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_block_01:
+    type: block_field_default
+    weight: 2
+    region: content
+    settings:
+      plugin_id: ''
+      settings: {  }
+      configuration_form: full
+    third_party_settings: {  }
+  field_link_01:
+    type: link_default
+    weight: 3
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_scroll_id:
+    type: string_textfield
+    weight: 5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,185 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.main_footer
+    - field.field.block_content.main_footer.field_area_01
+    - field.field.block_content.main_footer.field_area_plain_01
+    - field.field.block_content.main_footer.field_language_switcher_01
+    - field.field.block_content.main_footer.field_link_unlimited_01
+    - field.field.block_content.main_footer.field_paragraph_unlimited_01
+    - field.field.block_content.main_footer.field_text_01
+  module:
+    - block_field
+    - field_group
+    - link
+    - paragraphs
+    - text
+third_party_settings:
+  field_group:
+    group_content:
+      children:
+        - group_map
+        - group_text
+        - group_social
+        - group_la
+        - group_legal
+      label: Content
+      region: content
+      parent_name: ''
+      weight: 4
+      format_type: tabs
+      format_settings:
+        classes: ''
+        id: ''
+        direction: vertical
+    group_map:
+      children:
+        - field_area_plain_01
+      label: Map
+      region: content
+      parent_name: group_content
+      weight: 20
+      format_type: tab
+      format_settings:
+        classes: ''
+        id: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+    group_text:
+      children:
+        - field_area_01
+      label: Text
+      region: content
+      parent_name: group_content
+      weight: 21
+      format_type: tab
+      format_settings:
+        classes: ''
+        id: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+    group_social:
+      children:
+        - field_text_01
+        - field_paragraph_unlimited_01
+      label: Social
+      region: content
+      parent_name: group_content
+      weight: 22
+      format_type: tab
+      format_settings:
+        classes: ''
+        id: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+    group_la:
+      children:
+        - field_language_switcher_01
+      label: 'Language Switcher'
+      region: content
+      parent_name: group_content
+      weight: 23
+      format_type: tab
+      format_settings:
+        classes: ''
+        id: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+    group_legal:
+      children:
+        - field_link_unlimited_01
+      label: Legal
+      region: content
+      parent_name: group_content
+      weight: 24
+      format_type: tab
+      format_settings:
+        classes: ''
+        id: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+id: block_content.main_footer.default
+targetEntityType: block_content
+bundle: main_footer
+mode: default
+content:
+  field_area_01:
+    type: text_textarea
+    weight: 5
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_area_plain_01:
+    type: string_textarea
+    weight: 3
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_language_switcher_01:
+    type: block_field_default
+    weight: 9
+    region: content
+    settings:
+      plugin_id: ''
+      settings: {  }
+      configuration_form: full
+    third_party_settings: {  }
+  field_link_unlimited_01:
+    type: link_default
+    weight: 8
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_paragraph_unlimited_01:
+    type: entity_reference_paragraphs
+    weight: 7
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: element_footer_social_icon
+    third_party_settings: {  }
+  field_text_01:
+    type: string_textfield
+    weight: 6
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 1
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  translation:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

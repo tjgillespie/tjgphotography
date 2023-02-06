@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.panel_blog_image_slider.field_image_unlimited_01
+    - paragraphs.paragraphs_type.panel_blog_image_slider
+  module:
+    - image
+id: paragraph.panel_blog_image_slider.default
+targetEntityType: paragraph
+bundle: panel_blog_image_slider
+mode: default
+content:
+  field_image_unlimited_01:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

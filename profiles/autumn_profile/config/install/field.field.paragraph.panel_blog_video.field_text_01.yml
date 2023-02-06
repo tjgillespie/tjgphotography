@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_01
+    - paragraphs.paragraphs_type.panel_blog_video
+id: paragraph.panel_blog_video.field_text_01
+field_name: field_text_01
+entity_type: paragraph
+bundle: panel_blog_video
+label: 'Youtube ID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

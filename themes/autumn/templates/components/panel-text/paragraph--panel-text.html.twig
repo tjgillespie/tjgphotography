@@ -1,0 +1,39 @@
+{% if content.field_extra_padding_01[0]['#markup'] %}
+  {% set extraPaddingClass = 'extra-padding' %}
+{% else %}
+  {% set extraPaddingClass = '' %}
+{% endif %}
+
+{% set scrollIdBool = false %}
+{% if content.field_scroll_id|render %}
+  {% set scrollIdBool = true %}
+  {% set scrollIdVal = content.field_scroll_id|render|striptags|trim|replace({'#': ''}) %}
+{% endif %}
+
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished',
+    'panel-text default-panel-padding',
+    extraPaddingClass
+  ]
+%}
+
+<section {{ attributes.addClass(classes) }} {% if scrollIdBool %} id="{{scrollIdVal}}"{% endif %} data-paragraph-id="{{ paragraph.id() }}">
+  {{ title_suffix }}
+  <div class="text-layer">
+    <div class="max-width">
+      <div class="row">
+        <div class="col-2 desktop">&nbsp;</div>
+        <div class="col-8">
+          <div class="big-p">
+            {{ content.field_area_01 }}
+          </div>
+        </div>
+        <div class="col-2 desktop">&nbsp;</div>
+      </div>
+    </div>
+  </div>
+</section>

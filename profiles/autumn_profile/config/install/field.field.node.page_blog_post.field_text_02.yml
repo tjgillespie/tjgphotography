@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_text_02
+    - node.type.page_blog_post
+id: node.page_blog_post.field_text_02
+field_name: field_text_02
+entity_type: node
+bundle: page_blog_post
+label: 'Read More Text'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

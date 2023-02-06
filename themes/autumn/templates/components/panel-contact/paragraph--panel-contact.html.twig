@@ -1,0 +1,29 @@
+{% set scrollIdBool = false %}
+{% if content.field_scroll_id|render %}
+  {% set scrollIdBool = true %}
+  {% set scrollIdVal = content.field_scroll_id|render|striptags|trim|replace({'#': ''}) %}
+{% endif %}
+
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished',
+    'panel-contact default-panel-padding'
+  ]
+%}
+
+<section {{ attributes.addClass(classes) }} {% if scrollIdBool %} id="{{scrollIdVal}}"{% endif %} data-paragraph-id="{{ paragraph.id() }}">
+  {{ title_suffix }}
+
+  <div class="max-width">
+    <div class="row row-headline">
+      <div class="col-12">
+        {{ content.field_area_01 }}
+      </div>
+    </div>
+
+    {{ content.field_form_01 }}
+  </div>
+</section>

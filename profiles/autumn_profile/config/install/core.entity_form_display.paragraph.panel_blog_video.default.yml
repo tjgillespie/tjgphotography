@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.panel_blog_video.field_text_01
+    - paragraphs.paragraphs_type.panel_blog_video
+id: paragraph.panel_blog_video.default
+targetEntityType: paragraph
+bundle: panel_blog_video
+mode: default
+content:
+  field_text_01:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

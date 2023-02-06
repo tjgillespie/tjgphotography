@@ -1,0 +1,147 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/comment\/25?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/comment\/custom_comment"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/comment\/custom_comment\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/comment\/custom_comment\/pid": [
+            {
+                "href": "http:\/\/default\/comment\/18?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/comment\/custom_comment\/entity_id": [
+            {
+                "href": "http:\/\/default\/node\/15?_format=hal_json"
+            }
+        ]
+    },
+    "cid": [
+        {
+            "value": 25
+        }
+    ],
+    "uuid": [
+        {
+            "value": "4df0838d-b5da-40e2-84f2-6a55fac5c4a0"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "comment_type": [
+        {
+            "target_id": "custom_comment"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/comment\/custom_comment\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "593725a5-39c0-477b-aa95-9270f95ae23d"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/comment\/custom_comment\/pid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/comment\/18?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/comment\/custom_comment"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fe0cb5fc-82ec-4c38-92c1-8c2c26be9004"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/comment\/custom_comment\/entity_id": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/15?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/page_blog_post"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4e967769-85b2-45e4-b9ef-2c5e2121235e"
+                    }
+                ]
+            }
+        ]
+    },
+    "subject": [
+        {
+            "value": "(No subject)"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-02-17T14:36:37+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-02-17T14:36:37+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "thread": [
+        {
+            "value": "01.00\/"
+        }
+    ],
+    "entity_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "field_name": [
+        {
+            "value": "field_comments"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_comment_text": [
+        {
+            "value": "This is a very good Question! So in fact... Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+        }
+    ]
+}

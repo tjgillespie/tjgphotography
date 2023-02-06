@@ -1,0 +1,105 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraphs_unlimited_01
+    - node.type.page_blog_post
+    - paragraphs.paragraphs_type.panel_blog_image
+    - paragraphs.paragraphs_type.panel_blog_image_slider
+    - paragraphs.paragraphs_type.panel_blog_text
+    - paragraphs.paragraphs_type.panel_blog_video
+  module:
+    - entity_reference_revisions
+id: node.page_blog_post.field_paragraphs_unlimited_01
+field_name: field_paragraphs_unlimited_01
+entity_type: node
+bundle: page_blog_post
+label: Panels
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      panel_blog_text: panel_blog_text
+      panel_blog_image_slider: panel_blog_image_slider
+      panel_blog_image: panel_blog_image
+      panel_blog_video: panel_blog_video
+    negate: 0
+    target_bundles_drag_drop:
+      element_about:
+        weight: -43
+        enabled: false
+      element_about_hover_link:
+        weight: -42
+        enabled: false
+      element_faq:
+        weight: -41
+        enabled: false
+      element_image_grid_image_slider:
+        weight: -40
+        enabled: false
+      element_image_grid_single_image:
+        weight: -39
+        enabled: false
+      element_image_grid_youtube_video:
+        weight: -38
+        enabled: false
+      element_quote:
+        weight: -37
+        enabled: false
+      element_usp:
+        weight: -36
+        enabled: false
+      panel_about:
+        weight: -35
+        enabled: false
+      panel_background_image_with_text:
+        weight: -34
+        enabled: false
+      panel_banner:
+        weight: -33
+        enabled: false
+      panel_blog_image:
+        weight: 35
+        enabled: true
+      panel_blog_image_slider:
+        weight: 34
+        enabled: true
+      panel_blog_teaser:
+        weight: -32
+        enabled: false
+      panel_blog_text:
+        weight: -23
+        enabled: true
+      panel_blog_video:
+        weight: 40
+        enabled: true
+      panel_faq:
+        weight: -31
+        enabled: false
+      panel_hero:
+        weight: -30
+        enabled: false
+      panel_hero_slider:
+        weight: -29
+        enabled: false
+      panel_image_grid:
+        weight: -28
+        enabled: false
+      panel_partnerships:
+        weight: -27
+        enabled: false
+      panel_quotes:
+        weight: -26
+        enabled: false
+      panel_text:
+        weight: -25
+        enabled: false
+      panel_usp:
+        weight: -24
+        enabled: false
+field_type: entity_reference_revisions

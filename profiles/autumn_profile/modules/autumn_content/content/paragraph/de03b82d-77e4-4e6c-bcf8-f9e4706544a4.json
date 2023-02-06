@@ -1,0 +1,245 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_contact"
+        }
+    },
+    "id": [
+        {
+            "value": 50
+        }
+    ],
+    "uuid": [
+        {
+            "value": "de03b82d-77e4-4e6c-bcf8-f9e4706544a4"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 64
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        },
+        {
+            "value": "de",
+            "lang": "de"
+        },
+        {
+            "value": "es",
+            "lang": "es"
+        },
+        {
+            "value": "fr",
+            "lang": "fr"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "panel_contact"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "de"
+        },
+        {
+            "value": true,
+            "lang": "es"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-01-22T10:58:30+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2020-01-22T10:58:30+00:00",
+            "lang": "de",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2020-01-22T10:58:30+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2020-01-22T10:58:30+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "1"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_paragraphs_unlimited_01"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "de"
+        },
+        {
+            "value": false,
+            "lang": "es"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "de"
+        },
+        {
+            "value": true,
+            "lang": "es"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "de"
+        },
+        {
+            "value": "en",
+            "lang": "es"
+        },
+        {
+            "value": "en",
+            "lang": "fr"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "de"
+        },
+        {
+            "value": false,
+            "lang": "es"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        }
+    ],
+    "field_area_01": [
+        {
+            "value": "<h2>Contact us<\/h2>\r\n\r\n<hr \/>",
+            "format": "full_html",
+            "processed": "<h2>Contact us<\/h2>\n\n<hr \/>",
+            "lang": "en"
+        },
+        {
+            "value": "<h2>Contact us<\/h2>\r\n\r\n<hr \/>",
+            "format": "full_html",
+            "processed": "<h2>Contact us<\/h2>\n\n<hr \/>",
+            "lang": "de"
+        },
+        {
+            "value": "<h2>Contact us<\/h2>\r\n\r\n<hr \/>",
+            "format": "full_html",
+            "processed": "<h2>Contact us<\/h2>\n\n<hr \/>",
+            "lang": "es"
+        },
+        {
+            "value": "<h2>Contact us<\/h2>\r\n\r\n<hr \/>",
+            "format": "full_html",
+            "processed": "<h2>Contact us<\/h2>\n\n<hr \/>",
+            "lang": "fr"
+        }
+    ],
+    "field_form_01": [
+        {
+            "target_id": "contact_1",
+            "default_data": "",
+            "status": "open",
+            "open": null,
+            "close": null,
+            "lang": "en"
+        },
+        {
+            "target_id": "contact_1",
+            "default_data": "",
+            "status": "open",
+            "open": null,
+            "close": null,
+            "lang": "de"
+        },
+        {
+            "target_id": "contact_1",
+            "default_data": "",
+            "status": "open",
+            "open": null,
+            "close": null,
+            "lang": "es"
+        },
+        {
+            "target_id": "contact_1",
+            "default_data": "",
+            "status": "open",
+            "open": null,
+            "close": null,
+            "lang": "fr"
+        }
+    ],
+    "field_scroll_id": [
+        {
+            "value": "contact"
+        }
+    ]
+}

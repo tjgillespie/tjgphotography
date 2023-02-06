@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: element_footer_social_icon
+label: 'Element / Social Icon'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

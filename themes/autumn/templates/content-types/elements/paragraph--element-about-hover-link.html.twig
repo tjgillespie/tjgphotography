@@ -1,0 +1,11 @@
+{% set linkurl = content.field_link_01[0]['#url']|render %}
+
+{% set linktitle = 'social media' %}
+
+{% if content.field_link_01[0]['#url']|render %}
+  {% set linktitle = linkurl %}
+{% endif %}
+
+<a href="{{ linkurl }}" title="{{ linktitle }}">
+  {{ content.field_icon_01 }}
+</a>

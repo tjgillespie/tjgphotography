@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_extra_padding_01
+    - paragraphs.paragraphs_type.panel_text
+id: paragraph.panel_text.field_extra_padding_01
+field_name: field_extra_padding_01
+entity_type: paragraph
+bundle: panel_text
+label: 'Bigger Padding'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

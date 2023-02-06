@@ -1,0 +1,13 @@
+langcode: en
+uuid: dd53f945-b74f-402f-a78a-e0aed6619558
+name: 'theme autumn - by michael stauner'
+mail: info@info.com
+slogan: ''
+page:
+  403: /node/11
+  404: /node/12
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: ''

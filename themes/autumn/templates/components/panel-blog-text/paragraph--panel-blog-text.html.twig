@@ -1,0 +1,15 @@
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished',
+    'free-text-area'
+  ]
+%}
+
+<div {{ attributes.addClass(classes) }}>
+  {{ title_suffix }}
+
+  {{ content.field_area_01 }}
+</div>

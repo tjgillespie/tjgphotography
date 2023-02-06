@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content_01
+    - node.type.global_blog_sidebar
+    - node.type.page_blog_post
+  content:
+    - 'node:global_blog_sidebar:6cf73636-57a7-4789-b27c-23eb5405e7db'
+id: node.page_blog_post.field_content_01
+field_name: field_content_01
+entity_type: node
+bundle: page_blog_post
+label: Sidebar
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 6cf73636-57a7-4789-b27c-23eb5405e7db
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      global_blog_sidebar: global_blog_sidebar
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

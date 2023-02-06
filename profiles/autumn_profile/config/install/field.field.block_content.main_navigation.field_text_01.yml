@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.main_navigation
+    - field.storage.block_content.field_text_01
+id: block_content.main_navigation.field_text_01
+field_name: field_text_01
+entity_type: block_content
+bundle: main_navigation
+label: 'List Title (Mobile)'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

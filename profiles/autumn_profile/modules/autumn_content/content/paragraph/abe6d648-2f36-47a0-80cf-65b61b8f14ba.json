@@ -1,0 +1,255 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_background_image_with_text"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/panel_background_image_with_text\/field_image_01": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2020-01\/bg-2.jpg"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 24
+        }
+    ],
+    "uuid": [
+        {
+            "value": "abe6d648-2f36-47a0-80cf-65b61b8f14ba"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 24
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        },
+        {
+            "value": "de",
+            "lang": "de"
+        },
+        {
+            "value": "es",
+            "lang": "es"
+        },
+        {
+            "value": "fr",
+            "lang": "fr"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "panel_background_image_with_text"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "de"
+        },
+        {
+            "value": true,
+            "lang": "es"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-01-21T10:36:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2020-01-21T10:36:03+00:00",
+            "lang": "de",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2020-01-21T10:36:03+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2020-01-21T10:36:03+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "1"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_paragraphs_unlimited_01"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "de"
+        },
+        {
+            "value": false,
+            "lang": "es"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "de"
+        },
+        {
+            "value": true,
+            "lang": "es"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "de"
+        },
+        {
+            "value": "en",
+            "lang": "es"
+        },
+        {
+            "value": "en",
+            "lang": "fr"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "de"
+        },
+        {
+            "value": false,
+            "lang": "es"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        }
+    ],
+    "field_area_01": [
+        {
+            "value": "<h2>title<\/h2>\r\n\r\n<hr \/>\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<\/p>\r\n",
+            "format": "full_html",
+            "processed": "<h2>title<\/h2>\n\n<hr \/>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<\/p>\n",
+            "lang": "en"
+        },
+        {
+            "value": "<h2>title<\/h2>\r\n\r\n<hr \/>\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<\/p>\r\n",
+            "format": "full_html",
+            "processed": "<h2>title<\/h2>\n\n<hr \/>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<\/p>\n",
+            "lang": "de"
+        },
+        {
+            "value": "<h2>title<\/h2>\r\n\r\n<hr \/>\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<\/p>\r\n",
+            "format": "full_html",
+            "processed": "<h2>title<\/h2>\n\n<hr \/>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<\/p>\n",
+            "lang": "es"
+        },
+        {
+            "value": "<h2>title<\/h2>\r\n\r\n<hr \/>\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<\/p>\r\n",
+            "format": "full_html",
+            "processed": "<h2>title<\/h2>\n\n<hr \/>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<\/p>\n",
+            "lang": "fr"
+        }
+    ],
+    "field_background_bright_01": [
+        {
+            "value": false
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/panel_background_image_with_text\/field_image_01": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2020-01\/bg-2.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "47ca99f3-8a2f-4355-a4d6-292c7697a6c9"
+                    }
+                ]
+            }
+        ]
+    },
+    "field_no_space_bottom_01": [
+        {
+            "value": false
+        }
+    ],
+    "field_no_space_top_01": [
+        {
+            "value": false
+        }
+    ],
+    "field_text_position_01": [
+        {
+            "value": 1
+        }
+    ],
+    "field_text_readability_01": [
+        {
+            "value": false
+        }
+    ]
+}

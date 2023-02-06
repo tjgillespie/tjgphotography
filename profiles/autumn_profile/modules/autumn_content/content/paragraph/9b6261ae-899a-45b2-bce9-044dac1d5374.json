@@ -1,0 +1,145 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_hero"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/panel_hero\/field_image_01": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2020-01\/2_2.jpg"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 58
+        }
+    ],
+    "uuid": [
+        {
+            "value": "9b6261ae-899a-45b2-bce9-044dac1d5374"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 72
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "panel_hero"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-01-22T14:46:49+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "10"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_paragraphs_unlimited_01"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "field_area_01": [
+        {
+            "value": "<h1>Thank You!<\/h1>\r\n\r\n<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<\/h4>\r\n",
+            "format": "full_html",
+            "processed": "<h1>Thank You!<\/h1>\n\n<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<\/h4>\n",
+            "lang": "en"
+        }
+    ],
+    "field_background_bright_01": [
+        {
+            "value": false
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/panel_hero\/field_image_01": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2020-01\/2_2.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "82c2c7e0-b50f-418c-b510-3b2ab5ca3a33"
+                    }
+                ]
+            }
+        ]
+    },
+    "field_size_half_01": [
+        {
+            "value": false
+        }
+    ],
+    "field_text_position_01": [
+        {
+            "value": 1
+        }
+    ],
+    "field_text_readability_01": [
+        {
+            "value": true
+        }
+    ]
+}

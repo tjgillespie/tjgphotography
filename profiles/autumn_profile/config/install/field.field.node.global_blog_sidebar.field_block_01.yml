@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_block_01
+    - node.type.global_blog_sidebar
+  module:
+    - block_field
+id: node.global_blog_sidebar.field_block_01
+field_name: field_block_01
+entity_type: node
+bundle: global_blog_sidebar
+label: 'All Categories'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    plugin_id: 'views_block:all_categories-block_1'
+    settings: {  }
+default_value_callback: ''
+settings:
+  selection: blocks
+  selection_settings:
+    plugin_ids:
+      'views_block:all_categories-block_1': 'views_block:all_categories-block_1'
+field_type: block_field

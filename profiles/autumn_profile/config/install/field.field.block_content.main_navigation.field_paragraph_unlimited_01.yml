@@ -1,0 +1,111 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.main_navigation
+    - field.storage.block_content.field_paragraph_unlimited_01
+    - paragraphs.paragraphs_type.element_footer_social_icon
+  module:
+    - entity_reference_revisions
+id: block_content.main_navigation.field_paragraph_unlimited_01
+field_name: field_paragraph_unlimited_01
+entity_type: block_content
+bundle: main_navigation
+label: 'Social Icons (Mobile)'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      element_footer_social_icon: element_footer_social_icon
+    negate: 0
+    target_bundles_drag_drop:
+      element_about:
+        weight: 29
+        enabled: false
+      element_about_hover_link:
+        weight: 30
+        enabled: false
+      element_faq:
+        weight: 31
+        enabled: false
+      element_footer_social_icon:
+        weight: 32
+        enabled: true
+      element_image_grid_image_slider:
+        weight: 33
+        enabled: false
+      element_image_grid_single_image:
+        weight: 34
+        enabled: false
+      element_image_grid_youtube_video:
+        weight: 35
+        enabled: false
+      element_partner:
+        weight: 36
+        enabled: false
+      element_quote:
+        weight: 37
+        enabled: false
+      element_usp:
+        weight: 38
+        enabled: false
+      panel_about:
+        weight: 39
+        enabled: false
+      panel_background_image_with_text:
+        weight: 40
+        enabled: false
+      panel_banner:
+        weight: 41
+        enabled: false
+      panel_blog_image:
+        weight: 42
+        enabled: false
+      panel_blog_image_slider:
+        weight: 43
+        enabled: false
+      panel_blog_teaser:
+        weight: 44
+        enabled: false
+      panel_blog_text:
+        weight: 45
+        enabled: false
+      panel_blog_video:
+        weight: 46
+        enabled: false
+      panel_contact:
+        weight: 47
+        enabled: false
+      panel_faq:
+        weight: 48
+        enabled: false
+      panel_hero:
+        weight: 49
+        enabled: false
+      panel_hero_slider:
+        weight: 50
+        enabled: false
+      panel_image_grid:
+        weight: 51
+        enabled: false
+      panel_legal:
+        weight: 52
+        enabled: false
+      panel_partnerships:
+        weight: 53
+        enabled: false
+      panel_quotes:
+        weight: 54
+        enabled: false
+      panel_text:
+        weight: 55
+        enabled: false
+      panel_usp:
+        weight: 56
+        enabled: false
+field_type: entity_reference_revisions

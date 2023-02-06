@@ -1,0 +1,23 @@
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished',
+    'panel-legal'
+  ]
+%}
+
+<section {{ attributes.addClass(classes) }} data-paragraph-id="{{ paragraph.id() }}">
+  {{ title_suffix }}
+
+  <div class="max-width">
+    <div class="row">
+      <div class="col-1 desktop">&nbsp;</div>
+      <div class="col-10">
+        {{content.field_area_01}}
+      </div>
+      <div class="col-1 desktop">&nbsp;</div>
+    </div>
+  </div>
+</section>

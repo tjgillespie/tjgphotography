@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_form_01
+    - paragraphs.paragraphs_type.panel_contact
+  module:
+    - webform
+id: paragraph.panel_contact.field_form_01
+field_name: field_form_01
+entity_type: paragraph
+bundle: panel_contact
+label: Form
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: webform

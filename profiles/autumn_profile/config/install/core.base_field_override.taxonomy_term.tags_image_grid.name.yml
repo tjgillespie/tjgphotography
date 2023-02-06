@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tags_image_grid
+id: taxonomy_term.tags_image_grid.name
+field_name: name
+entity_type: taxonomy_term
+bundle: tags_image_grid
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

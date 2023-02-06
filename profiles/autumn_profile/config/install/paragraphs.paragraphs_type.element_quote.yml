@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: element_quote
+label: 'Element / Quote'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

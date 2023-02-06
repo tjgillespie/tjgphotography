@@ -1,0 +1,65 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.admin_dashboard
+    - views.view._get_all_comments
+    - views.view._get_all_webform_submissions
+    - views.view._get_theme_docs_link
+  module:
+    - panels
+    - views
+id: admin_dashboard-panels_variant-0
+label: Dashboard
+weight: 0
+variant: panels_variant
+variant_settings:
+  id: panels_variant
+  label: null
+  weight: 0
+  uuid: 7289a67f-9a5e-4840-9b89-c9326fbc85da
+  blocks:
+    f8947800-7dd3-45ec-ae15-e91e99425a38:
+      id: 'views_block:_get_theme_docs_link-block_1'
+      label: 'Theme Documentation'
+      label_display: visible
+      provider: views
+      context_mapping: {  }
+      views_label: 'Theme Documentation'
+      items_per_page: none
+      region: top
+      weight: 0
+      uuid: f8947800-7dd3-45ec-ae15-e91e99425a38
+    ede9d040-4336-4063-806d-f5fc8156d17d:
+      id: 'views_block:_get_all_webform_submissions-block_1'
+      label: 'New webform submissions'
+      label_display: visible
+      provider: views
+      context_mapping: {  }
+      views_label: 'New webform submissions'
+      items_per_page: none
+      region: middle
+      weight: -1
+      uuid: ede9d040-4336-4063-806d-f5fc8156d17d
+    bffc0f28-9aef-444e-9849-1eced7e9314e:
+      id: 'views_block:_get_all_comments-block_1'
+      label: 'New comments'
+      label_display: visible
+      provider: views
+      context_mapping: {  }
+      views_label: 'New comments'
+      items_per_page: none
+      region: middle
+      weight: 0
+      uuid: bffc0f28-9aef-444e-9849-1eced7e9314e
+  page_title: Dashboard
+  layout: layout_twocol_bricks
+  layout_settings:
+    label: dashboard-label
+  builder: standard
+  storage_type: page_manager
+  storage_id: admin_dashboard-panels_variant-0
+page: admin_dashboard
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

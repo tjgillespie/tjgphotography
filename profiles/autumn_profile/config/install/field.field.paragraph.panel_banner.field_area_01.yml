@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_area_01
+    - paragraphs.paragraphs_type.panel_banner
+  module:
+    - text
+id: paragraph.panel_banner.field_area_01
+field_name: field_area_01
+entity_type: paragraph
+bundle: panel_banner
+label: Text
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

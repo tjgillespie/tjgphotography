@@ -1,0 +1,175 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/element_image_grid_image_slider"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/element_image_grid_image_slider\/field_image_unlimited_01": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2020-01\/9.jpg"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/element_image_grid_image_slider\/field_taxonomy_unlimited_01": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/1?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/5?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/2?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 75
+        }
+    ],
+    "uuid": [
+        {
+            "value": "81054dfc-1343-42eb-841c-4a0f0aab9705"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 98
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "element_image_grid_image_slider"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-01-29T11:10:49+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "4"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "paragraph"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_paragraph_unlimited_01"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/element_image_grid_image_slider\/field_image_unlimited_01": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2020-01\/9.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fe221476-99c9-4c45-81d9-1e2a7016f41d"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/element_image_grid_image_slider\/field_taxonomy_unlimited_01": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags_image_grid"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "718250b6-ed99-4298-9c98-be2199ce7a75"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/5?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags_image_grid"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "111657ba-1f65-4f7c-97bb-a1f9a5b395f1"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags_image_grid"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "01563b2f-6c43-45a9-a1fc-2b9bf8dbb96e"
+                    }
+                ]
+            }
+        ]
+    }
+}

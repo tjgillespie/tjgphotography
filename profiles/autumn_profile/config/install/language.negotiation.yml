@@ -1,0 +1,15 @@
+session:
+  parameter: language
+url:
+  source: path_prefix
+  prefixes:
+    en: ''
+    de: de
+    es: es
+    fr: fr
+  domains:
+    en: ''
+    de: ''
+    es: ''
+    fr: ''
+selected_langcode: site_default

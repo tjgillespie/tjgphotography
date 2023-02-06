@@ -1,0 +1,211 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_text"
+        }
+    },
+    "id": [
+        {
+            "value": 2
+        }
+    ],
+    "uuid": [
+        {
+            "value": "7a4b837b-6ab8-4aeb-9b15-fb7bfdf8f2c2"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 2
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        },
+        {
+            "value": "de",
+            "lang": "de"
+        },
+        {
+            "value": "es",
+            "lang": "es"
+        },
+        {
+            "value": "fr",
+            "lang": "fr"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "panel_text"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "de"
+        },
+        {
+            "value": true,
+            "lang": "es"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-01-20T17:49:24+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2020-01-20T17:49:24+00:00",
+            "lang": "de",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2020-01-20T17:49:24+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2020-01-20T17:49:24+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "1"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_paragraphs_unlimited_01"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "de"
+        },
+        {
+            "value": false,
+            "lang": "es"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "de"
+        },
+        {
+            "value": true,
+            "lang": "es"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "de"
+        },
+        {
+            "value": "en",
+            "lang": "es"
+        },
+        {
+            "value": "en",
+            "lang": "fr"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "de"
+        },
+        {
+            "value": false,
+            "lang": "es"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        }
+    ],
+    "field_area_01": [
+        {
+            "value": "<h2>this could be your text<\/h2>\r\n\r\n<hr \/>\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<\/p>\r\n\r\n<p><a class=\"cta\" href=\"#portfolio\">learn more<\/a><\/p>\r\n",
+            "format": "full_html",
+            "processed": "<h2>this could be your text<\/h2>\n\n<hr \/>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<\/p>\n\n<p><a class=\"cta\" href=\"#portfolio\">learn more<\/a><\/p>\n",
+            "lang": "en"
+        },
+        {
+            "value": "<h2>Dies k\u00f6nnte Ihr Text sein<\/h2>\r\n\r\n<hr \/>\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. de<\/p>\r\n\r\n<p><a class=\"cta\" href=\"#portfolio\">learn more<\/a><\/p>\r\n",
+            "format": "full_html",
+            "processed": "<h2>Dies k\u00f6nnte Ihr Text sein<\/h2>\n\n<hr \/>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. de<\/p>\n\n<p><a class=\"cta\" href=\"#portfolio\">learn more<\/a><\/p>\n",
+            "lang": "de"
+        },
+        {
+            "value": "<h2>este podr\u00eda ser tu texto<\/h2>\r\n\r\n<hr \/>\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<\/p>\r\n\r\n<p><a class=\"cta\" href=\"#portfolio\">learn more<\/a><\/p>\r\n",
+            "format": "full_html",
+            "processed": "<h2>este podr\u00eda ser tu texto<\/h2>\n\n<hr \/>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<\/p>\n\n<p><a class=\"cta\" href=\"#portfolio\">learn more<\/a><\/p>\n",
+            "lang": "es"
+        },
+        {
+            "value": "<h2>cela pourrait \u00eatre votre texte<\/h2>\r\n\r\n<hr \/>\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<\/p>\r\n\r\n<p><a class=\"cta\" href=\"#portfolio\">learn more<\/a><\/p>\r\n",
+            "format": "full_html",
+            "processed": "<h2>cela pourrait \u00eatre votre texte<\/h2>\n\n<hr \/>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<\/p>\n\n<p><a class=\"cta\" href=\"#portfolio\">learn more<\/a><\/p>\n",
+            "lang": "fr"
+        }
+    ],
+    "field_extra_padding_01": [
+        {
+            "value": true
+        }
+    ]
+}

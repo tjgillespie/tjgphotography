@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.element_usp.field_area_01
+    - field.field.paragraph.element_usp.field_icon_01
+    - paragraphs.paragraphs_type.element_usp
+  module:
+    - fontawesome
+    - text
+id: paragraph.element_usp.default
+targetEntityType: paragraph
+bundle: element_usp
+mode: default
+content:
+  field_area_01:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_icon_01:
+    type: fontawesome_icon_formatter
+    label: above
+    settings:
+      layers: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

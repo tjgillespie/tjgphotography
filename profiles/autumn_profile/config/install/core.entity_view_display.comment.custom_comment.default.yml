@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.custom_comment
+    - field.field.comment.custom_comment.field_comment_text
+id: comment.custom_comment.default
+targetEntityType: comment
+bundle: custom_comment
+mode: default
+content:
+  field_comment_text:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

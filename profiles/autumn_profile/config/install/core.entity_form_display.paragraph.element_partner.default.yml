@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.element_partner.field_extra_spacing
+    - field.field.paragraph.element_partner.field_image_01
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.element_partner
+  module:
+    - image
+id: paragraph.element_partner.default
+targetEntityType: paragraph
+bundle: element_partner
+mode: default
+content:
+  field_extra_spacing:
+    type: boolean_checkbox
+    weight: 1
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_image_01:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

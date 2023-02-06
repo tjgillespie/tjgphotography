@@ -1,0 +1,49 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.element_about.field_area_01
+    - field.field.paragraph.element_about.field_image_01
+    - field.field.paragraph.element_about.field_paragraph_unlimited_01
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.element_about
+  module:
+    - image
+    - paragraphs
+    - text
+id: paragraph.element_about.default
+targetEntityType: paragraph
+bundle: element_about
+mode: default
+content:
+  field_area_01:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_image_01:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_paragraph_unlimited_01:
+    type: entity_reference_paragraphs
+    weight: 2
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: element_about_hover_link
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

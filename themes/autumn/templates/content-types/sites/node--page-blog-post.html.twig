@@ -1,0 +1,102 @@
+{% if view_mode == 'teaser' %}
+  {% set img = file_url(node.field_image_01.0.entity.uri.value) %}
+
+  <div class="blog-post-teaser-element color-bg-secondary">
+    <div{{ attributes }}>
+      {{ title_suffix }}
+      {% if content.field_image_01|render %}
+        <div class="image-wrap">
+          <div class="ratio-wrap">
+            <div class="abs-wrap">
+              <div class="rel">
+                <div class="bg-image abs-wrap lazy-load-bg-image" data-lazy-src="{{ img }}"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+
+      <div class="text-wrap">
+        <h4>{{ content.field_text_01 }}</h4>
+
+        <h6 class="subtitle">{{ date }}</h6>
+
+        {{ content.field_area_02 }}
+
+        <a href="{{ url }}" class="cta" title="{{ content.field_text_02|render|striptags|trim }}">{{ content.field_text_02 }}</a>
+      </div>
+    </div>
+  </div>
+{% elseif view_mode == 'teaserblogoverview' %}
+  {% set img = file_url(node.field_image_01.0.entity.uri.value) %}
+
+  <div class="blog-post-teaser-element color-bg-secondary">
+    <div{{ attributes }}>
+      {{ title_suffix }}
+      {% if content.field_image_01|render %}
+        <div class="image-wrap">
+          <div class="ratio-wrap">
+            <div class="abs-wrap">
+              <div class="rel">
+                <div class="bg-image abs-wrap" style="background-image:url('{{ img }}');"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+
+      <div class="text-wrap">
+        <h4>{{ content.field_text_01 }}</h4>
+
+        <h6 class="subtitle">{{ 'By'|t }} {{author_name}} {{ 'on'|t }} {{ date }} {{ 'in'|t }} {{ content.field_taxonomy_01 }}</h6>
+        <div class="tags">
+          {{ content.field_taxonomy_unlimited_01 }}
+        </div>
+
+        {{ content.field_area_02 }}
+
+        <a href="{{ url }}" class="cta" title="{{ content.field_text_02|render|striptags|trim }}">{{ content.field_text_02 }}</a>
+      </div>
+    </div>
+  </div>
+{% elseif view_mode == 'sidebar' %}
+  <li>
+    <a href="{{url}}" title="{{ content.field_text_01|render|striptags|trim }}">{{ content.field_text_01 }}</a>
+  </li>
+{% else %}
+  <article class="panel-blog-post page-outer-wrap {% if content.field_sticky_after_scroll[0]['#markup'] %}header-sticky-on-scroll{% endif %}">
+    <div{{ attributes }}>
+      {{ title_suffix }}
+      <div class="max-width">
+        <div class="row">
+          <div class="col-1 desktop">&nbsp;</div>
+          <div class="col-7">
+            <a class="back-button" href="{{ url('<front>') }}{{ autumn_blogurl }}" title="back">
+              <div class="icon-wrap">
+                <i class="fas fa-arrow-left"></i>
+              </div>
+              <div class="text">
+                {{ 'back to all posts'|t }}
+              </div>
+            </a>
+
+            <h2>{{ content.field_text_01 }}</h2>
+            <h6 class="subtitle">{{ 'By'|t }} {{author_name}} {{ 'on'|t }} {{ date }} {{ 'in'|t }} {{ content.field_taxonomy_01 }}</span></h6>
+            <div class="tags">
+              {{ content.field_taxonomy_unlimited_01 }}
+            </div>
+
+            {{ content.field_paragraphs_unlimited_01 }}
+
+            {{ content.field_comments }}
+          </div>
+          <div class="col-1 desktop">&nbsp;</div>
+          <div class="col-3 sidebar">
+            {{ content.field_content_01 }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+{% endif %}
+

@@ -1,0 +1,18 @@
+{% set img = file_url(paragraph.field_image_01.0.entity.uri.value) %}
+{% set imgAlt = paragraph.field_image_01.alt|render|striptags|trim %}
+
+<div class="filtr-item hover-details-overlay-effect-1 {% if content.field_area_01|render == false %}no-text{% endif %}" data-category="{{ content.field_taxonomy_unlimited_01|render|striptags|trim }}" data-popup-id="3" data-src="{{ content.field_text_01|render|striptags|trim }}">
+  <div class="animation-helper">
+    <img class="lazy-load-image-gallery" data-lazy-src="{{ img }}" alt="{{ imgAlt }}">
+
+    <div class="overlay abs-wrap"></div>
+
+    <div class="details-container">
+      {{ content.field_area_01 }}
+
+      <div class="icon-wrap">
+        <i class="fas fa-film"></i>
+      </div>
+    </div>
+  </div>
+</div>

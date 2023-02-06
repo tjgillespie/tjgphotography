@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.panel_blog_text.field_area_01
+    - paragraphs.paragraphs_type.panel_blog_text
+  module:
+    - text
+id: paragraph.panel_blog_text.default
+targetEntityType: paragraph
+bundle: panel_blog_text
+mode: default
+content:
+  field_area_01:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

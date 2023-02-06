@@ -1,0 +1,9 @@
+{% if content.field_extra_spacing[0]['#markup'] %}
+  {% set spacingClass = 'needs-spacing' %}
+{% else %}
+  {% set spacingClass = '' %}
+{% endif %}
+
+<div class="partner-wrap {{ spacingClass }}">
+  {{ content.field_image_01 }}
+</div>

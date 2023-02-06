@@ -1,0 +1,42 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.panel_image_grid.field_paragraph_unlimited_01
+    - field.field.paragraph.panel_image_grid.field_scroll_id
+    - field.field.paragraph.panel_image_grid.field_taxonomy_unlimited_01
+    - paragraphs.paragraphs_type.panel_image_grid
+  module:
+    - entity_reference_revisions
+id: paragraph.panel_image_grid.default
+targetEntityType: paragraph
+bundle: panel_image_grid
+mode: default
+content:
+  field_paragraph_unlimited_01:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_scroll_id:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_taxonomy_unlimited_01:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

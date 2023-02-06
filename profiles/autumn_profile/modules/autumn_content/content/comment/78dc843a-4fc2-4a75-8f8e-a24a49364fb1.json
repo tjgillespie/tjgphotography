@@ -1,0 +1,130 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/comment\/5?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/comment\/custom_comment"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/comment\/custom_comment\/uid": [
+            {
+                "href": "http:\/\/default\/user\/0?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/comment\/custom_comment\/entity_id": [
+            {
+                "href": "http:\/\/default\/node\/21?_format=hal_json"
+            }
+        ]
+    },
+    "cid": [
+        {
+            "value": 5
+        }
+    ],
+    "uuid": [
+        {
+            "value": "78dc843a-4fc2-4a75-8f8e-a24a49364fb1"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "comment_type": [
+        {
+            "target_id": "custom_comment"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/comment\/custom_comment\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/0?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f8360240-3fb2-475f-85bb-2990aad63695"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/comment\/custom_comment\/entity_id": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/21?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/page_blog_post"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "416ff9f5-bacc-462d-b7e8-ab3197a8b295"
+                    }
+                ]
+            }
+        ]
+    },
+    "subject": [
+        {
+            "value": "i have a question"
+        }
+    ],
+    "name": [
+        {
+            "value": "michael"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-02-07T08:18:01+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-02-07T08:18:17+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "thread": [
+        {
+            "value": "01\/"
+        }
+    ],
+    "entity_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "field_name": [
+        {
+            "value": "field_comments"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_comment_text": [
+        {
+            "value": "Hello! This is a very interesting post.. but the more i read it the more i had the question.. bla bla?"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_no_space_bottom_01
+    - paragraphs.paragraphs_type.panel_background_image_with_text
+id: paragraph.panel_background_image_with_text.field_no_space_bottom_01
+field_name: field_no_space_bottom_01
+entity_type: paragraph
+bundle: panel_background_image_with_text
+label: 'No space bottom'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

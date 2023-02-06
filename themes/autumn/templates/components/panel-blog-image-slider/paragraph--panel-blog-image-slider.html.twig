@@ -1,0 +1,24 @@
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished',
+    'blog-image-slider-wrap'
+  ]
+%}
+
+<div {{ attributes.addClass(classes) }}>
+  {{ title_suffix }}
+
+  <div class="slider-prev slider-navi">
+    <i class="fas fa-chevron-left"></i>
+  </div>
+  <div class="slider-next slider-navi">
+    <i class="fas fa-chevron-right"></i>
+  </div>
+
+  <div class="blog-image-slider">
+    {{ content.field_image_unlimited_01 }}
+  </div>
+</div>

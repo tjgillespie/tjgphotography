@@ -1,0 +1,373 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/6?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/page_blog_post"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/page_blog_post\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/page_blog_post\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/page_blog_post\/field_content_01": [
+            {
+                "href": "http:\/\/default\/node\/13?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/page_blog_post\/field_image_01": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2020-01\/hero-1-small_2.jpg"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/page_blog_post\/field_paragraphs_unlimited_01": [
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/page_blog_post\/field_taxonomy_01": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/9?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/page_blog_post\/field_taxonomy_unlimited_01": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/6?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/8?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/7?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 6
+        }
+    ],
+    "uuid": [
+        {
+            "value": "6e5b5288-42f7-4a5d-90be-4f61f0cbdc06"
+        }
+    ],
+    "vid": [
+        {
+            "value": 78
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page_blog_post"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2021-02-12T19:14:38+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/page_blog_post\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "593725a5-39c0-477b-aa95-9270f95ae23d"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/page_blog_post\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "593725a5-39c0-477b-aa95-9270f95ae23d"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/page_blog_post\/field_content_01": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/13?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/global_blog_sidebar"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6cf73636-57a7-4789-b27c-23eb5405e7db"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/page_blog_post\/field_image_01": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2020-01\/hero-1-small_2.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "74f0977e-ce0f-4c3b-8a15-d8cb0f637e18"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/page_blog_post\/field_paragraphs_unlimited_01": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_blog_image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0306dd4f-36c9-4804-a3f8-ff3e56716d46"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "203"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_blog_text"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c62b77c8-ac6e-48b5-ad9c-f88ee29de22b"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "204"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/page_blog_post\/field_taxonomy_01": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/9?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/blog_categories"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6164a9d2-166a-4b21-9e14-4ef8be49df94"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/page_blog_post\/field_taxonomy_unlimited_01": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/6?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/blog_tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "32b122ba-7190-4c2c-8970-cb2c3fb75bb2"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/8?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/blog_tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bbaf6070-0e1c-49ed-8d51-7f0c722bd5cf"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/7?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/blog_tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "80e624b6-e9cc-4d79-ad5a-42f9306fea38"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Blog post with image",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-01-21T18:28:30+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2021-02-12T19:14:38+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "canonical_url": "http:\/\/default\/node\/6",
+                "title": "Blog post with image | theme autumn - by michael stauner"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "field_area_02": [
+        {
+            "value": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>\r\n",
+            "format": "full_html",
+            "processed": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>\n",
+            "lang": "en"
+        }
+    ],
+    "field_comments": [
+        {
+            "status": 2,
+            "cid": 30,
+            "last_comment_timestamp": 1581950342,
+            "last_comment_name": "James",
+            "last_comment_uid": 0,
+            "comment_count": 3
+        }
+    ],
+    "field_sticky_after_scroll": [
+        {
+            "value": false
+        }
+    ],
+    "field_text_01": [
+        {
+            "value": "Blog post with image",
+            "lang": "en"
+        }
+    ],
+    "field_text_02": [
+        {
+            "value": "full post",
+            "lang": "en"
+        }
+    ]
+}

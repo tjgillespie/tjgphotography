@@ -1,0 +1,41 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.element_image_grid_image_slider.field_area_01
+    - field.field.paragraph.element_image_grid_image_slider.field_image_unlimited_01
+    - field.field.paragraph.element_image_grid_image_slider.field_taxonomy_unlimited_01
+    - paragraphs.paragraphs_type.element_image_grid_image_slider
+  module:
+    - image
+    - text
+id: paragraph.element_image_grid_image_slider.default
+targetEntityType: paragraph
+bundle: element_image_grid_image_slider
+mode: default
+content:
+  field_area_01:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_image_unlimited_01:
+    type: image_url
+    label: above
+    settings:
+      image_style: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_taxonomy_unlimited_01:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: teaser
+      link: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

@@ -1,0 +1,19 @@
+.panel-banner{
+  text-align: center;
+  margin-top: $panelDistance;
+  margin-bottom: $panelDistance;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+  @media only screen and (max-width: 767px) {
+    margin-top: $panelDistanceMobile;
+    margin-bottom: $panelDistanceMobile;
+  }
+
+  @media only screen and (min-width: 2000px) {
+    margin-top: 3.5vw;
+    margin-bottom: 3.5vw;
+    padding-top: 3.5vw;
+    padding-bottom: 3.5vw;
+  }
+}

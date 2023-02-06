@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_block_01
+    - paragraphs.paragraphs_type.panel_blog_teaser
+  module:
+    - block_field
+id: paragraph.panel_blog_teaser.field_block_01
+field_name: field_block_01
+entity_type: paragraph
+bundle: panel_blog_teaser
+label: Posts
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    plugin_id: 'views_block:last_x_blog_posts-block_1'
+    settings: {  }
+default_value_callback: ''
+settings:
+  selection: blocks
+  selection_settings:
+    plugin_ids:
+      page_title_block: page_title_block
+      'views_block:last_x_blog_posts-block_1': 'views_block:last_x_blog_posts-block_1'
+field_type: block_field

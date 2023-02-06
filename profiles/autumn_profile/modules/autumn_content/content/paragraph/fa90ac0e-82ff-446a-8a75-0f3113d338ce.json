@@ -1,0 +1,95 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_blog_text"
+        }
+    },
+    "id": [
+        {
+            "value": 121
+        }
+    ],
+    "uuid": [
+        {
+            "value": "fa90ac0e-82ff-446a-8a75-0f3113d338ce"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 199
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "panel_blog_text"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-01-29T18:33:05+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "20"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_paragraphs_unlimited_01"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "field_area_01": [
+        {
+            "value": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>\r\n\r\n<p>This is an example:<\/p>\r\n\r\n<ul>\r\n\t<li>list<\/li>\r\n\t<li>list<\/li>\r\n\t<li>list<\/li>\r\n<\/ul>\r\n\r\n<p><a href=\"#\">link<\/a><br \/>\r\n<strong>bold text<\/strong><\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h2>headline 2<\/h2>\r\n\r\n<h3>headline 3<\/h3>\r\n\r\n<h4>headline 4<\/h4>\r\n\r\n<h5>headline 5<\/h5>\r\n\r\n<h6>headline 6<\/h6>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<blockquote>\"This is a quote\"<\/blockquote>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>\r\n",
+            "format": "full_html",
+            "processed": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>\n\n<p>This is an example:<\/p>\n\n<ul>\n\t<li>list<\/li>\n\t<li>list<\/li>\n\t<li>list<\/li>\n<\/ul>\n\n<p><a href=\"#\">link<\/a><br \/>\n<strong>bold text<\/strong><\/p>\n\n<p>\u00a0<\/p>\n\n<p>\u00a0<\/p>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>\n\n<p>\u00a0<\/p>\n\n<h2>headline 2<\/h2>\n\n<h3>headline 3<\/h3>\n\n<h4>headline 4<\/h4>\n\n<h5>headline 5<\/h5>\n\n<h6>headline 6<\/h6>\n\n<p>\u00a0<\/p>\n\n<blockquote>\"This is a quote\"<\/blockquote>\n\n<p>\u00a0<\/p>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>\n\n<p>\u00a0<\/p>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>\n",
+            "lang": "en"
+        }
+    ]
+}

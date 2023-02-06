@@ -1,0 +1,125 @@
+.panel-image-grid{
+  overflow: hidden;
+
+  .animation-helper{
+    overflow: hidden;
+  }
+
+  .filter-bar{
+    display: flex;
+
+    .filter-trigger{
+      width: 20%;
+      text-align: center;
+      padding: 10px;
+      transition: 0.3s ease-out;
+      cursor: pointer;
+
+      &:last-of-type{
+        border-right: 0;
+      }
+
+      @media only screen and (min-width: 2000px) {
+        padding: 0.5vw;
+      }
+    }
+  }
+
+  .grid-outer-wrap{
+    .filtr-item{
+      width: calc(20% - 0.7px);
+      cursor: pointer;
+      overflow: hidden;
+      padding: 1px;
+
+      @media only screen and (max-width: 1023px) {
+        width: calc(25% - 0.7px);
+      }
+
+      @media only screen and (max-width: 767px) {
+        width: calc(33.3333% - 0.7px);
+      }
+
+      @media only screen and (max-width: 499px) {
+        width: calc(50% - 0.7px);
+      }
+
+      .details-container{
+        .icon-wrap{
+          margin-top: 20px;
+          display: inline-flex;
+          width: 35px;
+          height: 35px;
+          align-items: center;
+          background: rgba(255, 255, 255, 0.2);
+          border-radius: 100%;
+          justify-content: center;
+
+          @media only screen and (min-width: 2000px) {
+            margin-top: 1vw;
+            width: 1.75vw;
+            height: 1.75vw;
+          }
+        }
+      }
+
+      &.no-text{
+        .details-container{
+          .icon-wrap{
+            margin-top: 0;
+
+            @media only screen and (min-width: 2000px) {
+              margin-top: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .filter-bar{
+      position: relative;
+      z-index: 5;
+
+      .icon-filter{
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translate(0, -50%) rotate(0deg);
+        pointer-events: none;
+        transition: 0.3s ease-out;
+        transform-origin: center;
+
+        &.active{
+          transform: translate(0, -50%) rotate(90deg);
+        }
+      }
+
+      .filter-trigger{
+        display: none;
+        width: 100%;
+
+        &.active{
+          display: block;
+        }
+      }
+
+      .mobile-dropdown{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        transform: translate(0, 100%);
+
+        .filter-trigger{
+          display: block;
+
+          &.active{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

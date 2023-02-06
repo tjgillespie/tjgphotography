@@ -1,0 +1,8 @@
+{% if view_mode == 'teaser' %}
+  <li class="search-click">
+    {% set urlSlit = url|split('/') %}
+    <a href="{{ url('<front>') }}{{ autumn_blogurl }}?field_taxonomy_unlimited_01_target_id={{ urlSlit|last }}" data-field="field_taxonomy_unlimited_01_target_id" data-id="{{ urlSlit|last }}">{{ name }}</a>
+  </li>
+{% else %}
+  <span class="tag">{{name}}</span>
+{% endif %}

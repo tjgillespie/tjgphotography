@@ -1,0 +1,135 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraphs_unlimited_01
+    - node.type.page_default
+    - paragraphs.paragraphs_type.element_about
+    - paragraphs.paragraphs_type.element_about_hover_link
+    - paragraphs.paragraphs_type.element_faq
+    - paragraphs.paragraphs_type.element_footer_social_icon
+    - paragraphs.paragraphs_type.element_image_grid_image_slider
+    - paragraphs.paragraphs_type.element_image_grid_single_image
+    - paragraphs.paragraphs_type.element_image_grid_youtube_video
+    - paragraphs.paragraphs_type.element_quote
+    - paragraphs.paragraphs_type.element_usp
+    - paragraphs.paragraphs_type.panel_blog_image
+    - paragraphs.paragraphs_type.panel_blog_image_slider
+    - paragraphs.paragraphs_type.panel_blog_text
+    - paragraphs.paragraphs_type.panel_blog_video
+  module:
+    - entity_reference_revisions
+id: node.page_default.field_paragraphs_unlimited_01
+field_name: field_paragraphs_unlimited_01
+entity_type: node
+bundle: page_default
+label: Panels
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      element_image_grid_single_image: element_image_grid_single_image
+      element_image_grid_image_slider: element_image_grid_image_slider
+      element_image_grid_youtube_video: element_image_grid_youtube_video
+      element_about_hover_link: element_about_hover_link
+      element_about: element_about
+      element_usp: element_usp
+      element_faq: element_faq
+      element_quote: element_quote
+      panel_blog_text: panel_blog_text
+      panel_blog_image: panel_blog_image
+      panel_blog_image_slider: panel_blog_image_slider
+      panel_blog_video: panel_blog_video
+      element_footer_social_icon: element_footer_social_icon
+    negate: 1
+    target_bundles_drag_drop:
+      element_about:
+        weight: -51
+        enabled: true
+      element_about_hover_link:
+        weight: -52
+        enabled: true
+      element_faq:
+        weight: -49
+        enabled: true
+      element_footer_social_icon:
+        weight: -43
+        enabled: true
+      element_image_grid_image_slider:
+        weight: -54
+        enabled: true
+      element_image_grid_single_image:
+        weight: -55
+        enabled: true
+      element_image_grid_youtube_video:
+        weight: -53
+        enabled: true
+      element_partner:
+        weight: 36
+        enabled: false
+      element_quote:
+        weight: -48
+        enabled: true
+      element_usp:
+        weight: -50
+        enabled: true
+      panel_about:
+        weight: -42
+        enabled: false
+      panel_background_image_with_text:
+        weight: -41
+        enabled: false
+      panel_banner:
+        weight: -40
+        enabled: false
+      panel_blog_image:
+        weight: -46
+        enabled: true
+      panel_blog_image_slider:
+        weight: -45
+        enabled: true
+      panel_blog_teaser:
+        weight: -39
+        enabled: false
+      panel_blog_text:
+        weight: -47
+        enabled: true
+      panel_blog_video:
+        weight: -44
+        enabled: true
+      panel_contact:
+        weight: -38
+        enabled: false
+      panel_faq:
+        weight: -37
+        enabled: false
+      panel_hero:
+        weight: -36
+        enabled: false
+      panel_hero_slider:
+        weight: -35
+        enabled: false
+      panel_image_grid:
+        weight: -34
+        enabled: false
+      panel_legal:
+        weight: -33
+        enabled: false
+      panel_partnerships:
+        weight: -32
+        enabled: false
+      panel_quotes:
+        weight: -31
+        enabled: false
+      panel_text:
+        weight: -30
+        enabled: false
+      panel_usp:
+        weight: -29
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_size_half_01
+    - paragraphs.paragraphs_type.panel_hero
+id: paragraph.panel_hero.field_size_half_01
+field_name: field_size_half_01
+entity_type: paragraph
+bundle: panel_hero
+label: 'Size Half'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

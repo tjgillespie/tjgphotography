@@ -1,0 +1,15 @@
+<div class="ticket color-bg-secondary">
+  <h3 class="ticket-title">{{content.field_text_01}}</h3>
+  <h4 class="ticket-price">{{content.field_text_02}}</h4>
+
+  <div class="body">
+    {{content.field_area_01}}
+  </div>
+
+  {% if content.field_link_01|render %}
+    {% set linkurl = content.field_link_01[0]['#url']|render %}
+    {% set linkTitle = content.field_link_01[0]['#title']|render %}
+
+    <a href="{{linkurl}}" class="cta" title="{{linkTitle}}">{{linkTitle}}</a>
+  {% endif %}
+</div>

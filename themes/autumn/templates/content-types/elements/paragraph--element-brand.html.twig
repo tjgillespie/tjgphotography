@@ -1,0 +1,6 @@
+{% set linkurl = content.field_link_01[0]['#url']|render %}
+{% set imgAlt = paragraph.field_image_01.alt|render|striptags|trim %}
+
+<a class="element-brand" href="{{linkurl}}" title="{{linkurl}}">
+  <img class="lazy-load-image" data-lazy-src="{{file_url(paragraph.field_image_01.0.entity.uri.value)}}" alt="{{ imgAlt }}">
+</a>

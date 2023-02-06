@@ -1,0 +1,145 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_hero"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/panel_hero\/field_image_01": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2020-01\/hero-1-small_4.jpg"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 70
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a6d2c077-a459-4aba-9329-c0c029d1a654"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 84
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "panel_hero"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-01-27T18:24:41+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "5"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_paragraphs_unlimited_01"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "field_area_01": [
+        {
+            "value": "<h1>Blog<\/h1>\r\n\r\n<h4>Read all new infos about us here<\/h4>\r\n",
+            "format": "full_html",
+            "processed": "<h1>Blog<\/h1>\n\n<h4>Read all new infos about us here<\/h4>\n",
+            "lang": "en"
+        }
+    ],
+    "field_background_bright_01": [
+        {
+            "value": false
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/panel_hero\/field_image_01": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2020-01\/hero-1-small_4.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c3d6b25f-3216-4cb2-88ff-28b2868b0dad"
+                    }
+                ]
+            }
+        ]
+    },
+    "field_size_half_01": [
+        {
+            "value": true
+        }
+    ],
+    "field_text_position_01": [
+        {
+            "value": 1
+        }
+    ],
+    "field_text_readability_01": [
+        {
+            "value": true
+        }
+    ]
+}

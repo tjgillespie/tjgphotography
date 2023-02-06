@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.element_quote.field_text_01
+    - field.field.paragraph.element_quote.field_text_02
+    - paragraphs.paragraphs_type.element_quote
+id: paragraph.element_quote.default
+targetEntityType: paragraph
+bundle: element_quote
+mode: default
+content:
+  field_text_01:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_text_02:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

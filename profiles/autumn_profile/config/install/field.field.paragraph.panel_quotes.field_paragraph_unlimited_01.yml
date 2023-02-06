@@ -1,0 +1,84 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_unlimited_01
+    - paragraphs.paragraphs_type.element_quote
+    - paragraphs.paragraphs_type.panel_quotes
+  module:
+    - entity_reference_revisions
+id: paragraph.panel_quotes.field_paragraph_unlimited_01
+field_name: field_paragraph_unlimited_01
+entity_type: paragraph
+bundle: panel_quotes
+label: Elements
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      element_quote: element_quote
+    negate: 0
+    target_bundles_drag_drop:
+      element_about:
+        weight: 20
+        enabled: false
+      element_about_hover_link:
+        weight: 21
+        enabled: false
+      element_faq:
+        weight: 22
+        enabled: false
+      element_image_grid_image_slider:
+        weight: 23
+        enabled: false
+      element_image_grid_single_image:
+        weight: 24
+        enabled: false
+      element_image_grid_youtube_video:
+        weight: 25
+        enabled: false
+      element_quote:
+        weight: 26
+        enabled: true
+      element_usp:
+        weight: 27
+        enabled: false
+      panel_about:
+        weight: 28
+        enabled: false
+      panel_background_image_with_text:
+        weight: 29
+        enabled: false
+      panel_banner:
+        weight: 30
+        enabled: false
+      panel_blog_teaser:
+        weight: 31
+        enabled: false
+      panel_faq:
+        weight: 32
+        enabled: false
+      panel_hero:
+        weight: 33
+        enabled: false
+      panel_hero_slider:
+        weight: 34
+        enabled: false
+      panel_image_grid:
+        weight: 35
+        enabled: false
+      panel_quotes:
+        weight: 36
+        enabled: false
+      panel_text:
+        weight: 37
+        enabled: false
+      panel_usp:
+        weight: 38
+        enabled: false
+field_type: entity_reference_revisions

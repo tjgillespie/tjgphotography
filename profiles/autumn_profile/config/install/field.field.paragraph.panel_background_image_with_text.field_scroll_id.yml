@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_scroll_id
+    - paragraphs.paragraphs_type.panel_background_image_with_text
+id: paragraph.panel_background_image_with_text.field_scroll_id
+field_name: field_scroll_id
+entity_type: paragraph
+bundle: panel_background_image_with_text
+label: 'Scroll-ID (Anchor)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

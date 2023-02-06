@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: admin_dashboard
+label: 'Admin Dashboard'
+description: ''
+use_admin_theme: true
+path: /admin/dashboard
+access_logic: and
+access_conditions:
+  -
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      administrator: administrator
+parameters: {  }

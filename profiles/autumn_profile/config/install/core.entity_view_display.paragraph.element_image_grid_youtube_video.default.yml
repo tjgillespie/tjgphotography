@@ -1,0 +1,51 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.element_image_grid_youtube_video.field_area_01
+    - field.field.paragraph.element_image_grid_youtube_video.field_image_01
+    - field.field.paragraph.element_image_grid_youtube_video.field_taxonomy_unlimited_01
+    - field.field.paragraph.element_image_grid_youtube_video.field_text_01
+    - paragraphs.paragraphs_type.element_image_grid_youtube_video
+  module:
+    - image
+    - text
+id: paragraph.element_image_grid_youtube_video.default
+targetEntityType: paragraph
+bundle: element_image_grid_youtube_video
+mode: default
+content:
+  field_area_01:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_image_01:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_taxonomy_unlimited_01:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: teaser
+      link: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_text_01:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden: {  }

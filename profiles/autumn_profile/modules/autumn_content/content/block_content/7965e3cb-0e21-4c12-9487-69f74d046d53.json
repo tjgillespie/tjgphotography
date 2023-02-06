@@ -1,0 +1,259 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/block\/1?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/block_content\/main_navigation"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/block_content\/main_navigation\/field_paragraph_unlimited_01": [
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "7965e3cb-0e21-4c12-9487-69f74d046d53"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 1
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "main_navigation"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-01-22T11:28:13+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "Main Navigation",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-02-18T12:27:41+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "canonical_url": "http:\/\/default\/home",
+                "title": "| theme autumn - by michael stauner"
+            }
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "field_link_unlimited_01": [
+        {
+            "uri": "internal:\/node\/1#home",
+            "title": "Home",
+            "options": [],
+            "lang": "en"
+        },
+        {
+            "uri": "internal:\/node\/1#portfolio",
+            "title": "Portfolio",
+            "options": [],
+            "lang": "en"
+        },
+        {
+            "uri": "internal:\/node\/1#about",
+            "title": "About",
+            "options": [],
+            "lang": "en"
+        },
+        {
+            "uri": "internal:\/node\/1#features",
+            "title": "Features",
+            "options": [],
+            "lang": "en"
+        },
+        {
+            "uri": "internal:\/node\/1#blog",
+            "title": "Blog",
+            "options": [],
+            "lang": "en"
+        },
+        {
+            "uri": "internal:\/node\/1#faq",
+            "title": "FAQ",
+            "options": [],
+            "lang": "en"
+        },
+        {
+            "uri": "internal:\/node\/1#contact",
+            "title": "Contact",
+            "options": [],
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/block_content\/main_navigation\/field_paragraph_unlimited_01": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/element_footer_social_icon"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b5b246ad-102f-4ad8-a3c8-a9f1a369dd42"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "193"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/element_footer_social_icon"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "635419d7-7e52-4311-a6f3-0da2e5b63678"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "194"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/element_footer_social_icon"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c3b03fcb-77ae-4b05-8439-aa0b11033cc3"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "195"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/element_footer_social_icon"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "954e47b5-5429-4ffc-b48f-efcabdbaff04"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "196"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/element_footer_social_icon"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2beeb8ba-d23d-430d-a0aa-72f21740abd1"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "197"
+            }
+        ]
+    },
+    "field_text_01": [
+        {
+            "value": "Follow us:",
+            "lang": "en"
+        }
+    ]
+}

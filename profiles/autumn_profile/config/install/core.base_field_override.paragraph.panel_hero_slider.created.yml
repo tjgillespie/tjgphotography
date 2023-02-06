@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.panel_hero_slider
+id: paragraph.panel_hero_slider.created
+field_name: created
+entity_type: paragraph
+bundle: panel_hero_slider
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

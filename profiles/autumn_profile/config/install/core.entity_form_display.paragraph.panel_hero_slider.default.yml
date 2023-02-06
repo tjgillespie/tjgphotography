@@ -1,0 +1,66 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.panel_hero_slider.field_paragraph_unlimited_01
+    - field.field.paragraph.panel_hero_slider.field_scroll_id
+    - paragraphs.paragraphs_type.panel_hero_slider
+  module:
+    - field_group
+    - paragraphs
+third_party_settings:
+  field_group:
+    group_content:
+      children:
+        - field_paragraph_unlimited_01
+      label: Content
+      region: content
+      parent_name: ''
+      weight: 1
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        id: ''
+        description: ''
+        required_fields: true
+    group_settings:
+      children:
+        - field_scroll_id
+      label: Settings
+      region: content
+      parent_name: ''
+      weight: 0
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        id: ''
+        description: ''
+        required_fields: true
+id: paragraph.panel_hero_slider.default
+targetEntityType: paragraph
+bundle: panel_hero_slider
+mode: default
+content:
+  field_paragraph_unlimited_01:
+    type: entity_reference_paragraphs
+    weight: 2
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: panel_hero
+    third_party_settings: {  }
+  field_scroll_id:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

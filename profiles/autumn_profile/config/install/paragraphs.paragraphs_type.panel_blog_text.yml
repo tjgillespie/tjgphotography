@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: panel_blog_text
+label: 'Panel / Blog / Text'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

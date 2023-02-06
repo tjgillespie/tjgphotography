@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tags_image_grid
+id: taxonomy_term.tags_image_grid.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: tags_image_grid
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

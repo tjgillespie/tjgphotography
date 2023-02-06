@@ -1,0 +1,104 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.panel_quotes.field_background_bright_01
+    - field.field.paragraph.panel_quotes.field_image_01
+    - field.field.paragraph.panel_quotes.field_paragraph_unlimited_01
+    - field.field.paragraph.panel_quotes.field_scroll_id
+    - field.field.paragraph.panel_quotes.field_text_position_01
+    - field.field.paragraph.panel_quotes.field_text_readability_01
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.panel_quotes
+  module:
+    - field_group
+    - image
+    - paragraphs
+third_party_settings:
+  field_group:
+    group_content:
+      children:
+        - field_image_01
+        - field_paragraph_unlimited_01
+      label: Content
+      region: content
+      parent_name: ''
+      weight: 1
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        id: ''
+        description: ''
+        required_fields: true
+    group_settings:
+      children:
+        - field_scroll_id
+        - field_background_bright_01
+        - field_text_position_01
+        - field_text_readability_01
+      label: Settings
+      region: content
+      parent_name: ''
+      weight: 0
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        id: ''
+        description: ''
+        required_fields: true
+id: paragraph.panel_quotes.default
+targetEntityType: paragraph
+bundle: panel_quotes
+mode: default
+content:
+  field_background_bright_01:
+    type: boolean_checkbox
+    weight: 4
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_image_01:
+    type: image_image
+    weight: 2
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_paragraph_unlimited_01:
+    type: entity_reference_paragraphs
+    weight: 3
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: element_quote
+    third_party_settings: {  }
+  field_scroll_id:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_text_position_01:
+    type: options_select
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_text_readability_01:
+    type: boolean_checkbox
+    weight: 6
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

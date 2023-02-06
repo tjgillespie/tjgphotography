@@ -1,0 +1,475 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/panel_quotes"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/panel_quotes\/field_image_01": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2020-01\/bg-6.jpg"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/panel_quotes\/field_paragraph_unlimited_01": [
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "de"
+            },
+            {
+                "href": "",
+                "lang": "de"
+            },
+            {
+                "href": "",
+                "lang": "de"
+            },
+            {
+                "href": "",
+                "lang": "es"
+            },
+            {
+                "href": "",
+                "lang": "es"
+            },
+            {
+                "href": "",
+                "lang": "es"
+            },
+            {
+                "href": "",
+                "lang": "fr"
+            },
+            {
+                "href": "",
+                "lang": "fr"
+            },
+            {
+                "href": "",
+                "lang": "fr"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 36
+        }
+    ],
+    "uuid": [
+        {
+            "value": "db5606f5-f592-4aba-9649-8e79eacdc1da"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 36
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        },
+        {
+            "value": "de",
+            "lang": "de"
+        },
+        {
+            "value": "es",
+            "lang": "es"
+        },
+        {
+            "value": "fr",
+            "lang": "fr"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "panel_quotes"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "de"
+        },
+        {
+            "value": true,
+            "lang": "es"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-01-21T10:55:06+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2020-01-21T10:55:06+00:00",
+            "lang": "de",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2020-01-21T10:55:06+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2020-01-21T10:55:06+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "1"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_paragraphs_unlimited_01"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "de"
+        },
+        {
+            "value": false,
+            "lang": "es"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "de"
+        },
+        {
+            "value": true,
+            "lang": "es"
+        },
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "de"
+        },
+        {
+            "value": "en",
+            "lang": "es"
+        },
+        {
+            "value": "en",
+            "lang": "fr"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "de"
+        },
+        {
+            "value": false,
+            "lang": "es"
+        },
+        {
+            "value": false,
+            "lang": "fr"
+        }
+    ],
+    "field_background_bright_01": [
+        {
+            "value": false
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/panel_quotes\/field_image_01": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2020-01\/bg-6.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e90af0e4-9cc7-4f7f-a0eb-922149440305"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/panel_quotes\/field_paragraph_unlimited_01": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/element_quote"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e834dc9d-ab9a-4d04-afdb-d4cef50980b7"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "33"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/element_quote"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "83e629d4-44ff-4b92-bc34-424fe2adf5cf"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "34"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/element_quote"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0c4adc52-3da9-42c7-9764-fa1ff62e974c"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "35"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/element_quote"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e834dc9d-ab9a-4d04-afdb-d4cef50980b7"
+                    }
+                ],
+                "lang": "de",
+                "target_revision_id": "33"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/element_quote"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "83e629d4-44ff-4b92-bc34-424fe2adf5cf"
+                    }
+                ],
+                "lang": "de",
+                "target_revision_id": "34"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/element_quote"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0c4adc52-3da9-42c7-9764-fa1ff62e974c"
+                    }
+                ],
+                "lang": "de",
+                "target_revision_id": "35"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/element_quote"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e834dc9d-ab9a-4d04-afdb-d4cef50980b7"
+                    }
+                ],
+                "lang": "es",
+                "target_revision_id": "33"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/element_quote"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "83e629d4-44ff-4b92-bc34-424fe2adf5cf"
+                    }
+                ],
+                "lang": "es",
+                "target_revision_id": "34"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/element_quote"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0c4adc52-3da9-42c7-9764-fa1ff62e974c"
+                    }
+                ],
+                "lang": "es",
+                "target_revision_id": "35"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/element_quote"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e834dc9d-ab9a-4d04-afdb-d4cef50980b7"
+                    }
+                ],
+                "lang": "fr",
+                "target_revision_id": "33"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/element_quote"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "83e629d4-44ff-4b92-bc34-424fe2adf5cf"
+                    }
+                ],
+                "lang": "fr",
+                "target_revision_id": "34"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/element_quote"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0c4adc52-3da9-42c7-9764-fa1ff62e974c"
+                    }
+                ],
+                "lang": "fr",
+                "target_revision_id": "35"
+            }
+        ]
+    },
+    "field_text_position_01": [
+        {
+            "value": 1
+        }
+    ],
+    "field_text_readability_01": [
+        {
+            "value": false
+        }
+    ]
+}

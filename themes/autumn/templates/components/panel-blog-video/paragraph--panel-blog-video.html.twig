@@ -1,0 +1,21 @@
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished',
+    'blog-post-video-wrap'
+  ]
+%}
+
+<div {{ attributes.addClass(classes) }}>
+  {{ title_suffix }}
+
+  <div class="ratio-wrap">
+    <div class="abs-wrap">
+      <div class="rel">
+        <iframe src="https://www.youtube-nocookie.com/embed/{{ content.field_text_01|render|striptags|trim }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="youtube-player"></iframe>
+      </div>
+    </div>
+  </div>
+</div>

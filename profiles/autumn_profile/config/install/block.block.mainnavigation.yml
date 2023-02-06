@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:main_navigation:7965e3cb-0e21-4c12-9487-69f74d046d53'
+  module:
+    - block_content
+  theme:
+    - autumn
+id: mainnavigation
+theme: autumn
+region: navigation
+weight: 0
+provider: null
+plugin: 'block_content:7965e3cb-0e21-4c12-9487-69f74d046d53'
+settings:
+  id: 'block_content:7965e3cb-0e21-4c12-9487-69f74d046d53'
+  label: 'Main Navigation'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
