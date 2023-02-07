@@ -24,8 +24,10 @@ function autumn_form_system_theme_settings_alter(&$form, \Drupal\Core\Form\FormS
   // Get autumn theme path.
   global $base_url;
   $custom_css_path = 'public://_autumn-custom.css';
-  $custom_css_dir = str_replace($base_url . '/', "", file_create_url($custom_css_path));
-  $custom_css_url = file_create_url($custom_css_path);
+  $custom_css_dir = str_replace($base_url . '/', "", \Drupal::service('file_url_generator')
+      ->generateString($custom_css_path));
+  $custom_css_url = \Drupal::service('file_url_generator')
+      ->generateString($custom_css_path);
 
   // Try to create the autumn-custom.css file automatically.
   if (!file_exists($custom_css_path)) {
