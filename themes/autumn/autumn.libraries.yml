@@ -3,6 +3,7 @@ global-styling:
   css:
     base:
       css/main.css: {}
+      overrides.css: {}
       js/vendor/slick.css: {}
   js:
     js/vendor/slick.min.js: {}
@@ -21,8 +22,3 @@ global-styling:
     - core/jquery
     - core/modernizr
 
-custom-styling:
-  version: 1.0
-  css:
-    theme:
-      public://_autumn-custom.css: {}
