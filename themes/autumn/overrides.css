@@ -146,6 +146,7 @@
     font-family: 'Montserrat Thin 100','Open Sans Condensed',sans-serif;
     color:aliceblue;
  }
+ p {margin:auto;}
 .panel-hero .text-layer .inner-text-layer:before {
     opacity: 0;
 }
