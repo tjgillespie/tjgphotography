@@ -142,11 +142,13 @@
      src: url("/libraries/google/webfonts/Montserrat-Italic-VariableFont_wght.ttf") format ("truetype");
  }
   
- h1 {
+h1 {
     font-family: 'Montserrat Thin 100','Open Sans Condensed',sans-serif;
     color:aliceblue;
  }
-/* p {margin:1em 0;} */
+p {
+    margin:1em 0;
+}
 .panel-hero .text-layer .inner-text-layer:before {
     opacity: 0;
 }
