@@ -7,6 +7,20 @@
   font-display: block;
   src: url("/libraries/fontawesome/webfonts/fa-brands-400.woff2") format("woff2"), url("/libraries/fontawesome/webfonts/fa-brands-400.ttf") format("truetype");
   }
+  @font-face {
+  font-family: 'fa-brands';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("/libraries/fontawesome/webfonts/fa-solid-900.woff2") format("woff2"), url("/libraries/fontawesome/webfonts/fa-solid-900.ttf") format("truetype");
+  }
+  @font-face {
+  font-family: 'fa-brands';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("/libraries/fontawesome/webfonts/fa-regular-400.woff2") format("woff2"), url("/libraries/fontawesome/webfonts/fa-regular-400.ttf") format("truetype");
+  }
  /* google fonts */
  /*@font-face {
      font-family:'Montserrat Thin 100';
