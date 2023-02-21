@@ -29,6 +29,8 @@
     <head-placeholder token="{{ placeholder_token|raw }}">
     <title>{{ head_title|safe_join(' | ') }}</title>
     <css-placeholder token="{{ placeholder_token|raw }}">
+    <link rel="stylesheet" href="{{base_path ~ 'libraries/fontawesome/webfonts/regular.min.css'}}">
+    <link rel="stylesheet" href="{{base_path ~ 'libraries/fontawesome/webfonts/solid.min.css'}}">
     <js-placeholder token="{{ placeholder_token|raw }}">
 
     <!-- connect to domain of font files -->
@@ -51,8 +53,6 @@
     <link rel="preload" href="{{base_path ~ 'libraries/fontawesome/webfonts/fa-regular-400.woff2'}}" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="{{base_path ~ 'libraries/fontawesome/webfonts/fa-solid-900.woff2'}}" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="{{base_path ~ 'libraries/fontawesome/webfonts/fa-brands-400.woff2'}}" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="{{base_path ~ 'libraries/fontawesome/web/regular.min.css'}}">
-    <link rel="stylesheet" href="{{base_path ~ 'libraries/fontawesome/web/solid.min.css'}}">
 
     {% set bg_main = '#191919' %}
     {% if autumn_color_bg_main != '' %}
