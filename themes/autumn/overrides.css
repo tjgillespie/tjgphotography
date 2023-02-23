@@ -163,7 +163,7 @@ h1 {
 p {
     margin:1em 0;
 }
-th {text-align: left;}
+th {text-align: left;text-decoration: underline;}
 .panel-hero .text-layer .inner-text-layer:before {
     opacity: 0;
 }
