@@ -166,3 +166,5 @@ p {
 .panel-hero .text-layer .inner-text-layer:before {
     opacity: 0;
 }
+/* contact thank you page */
+.page-node-10 .bg-image {opacity: .5;}
