@@ -28,6 +28,7 @@
         "drupal/field_group": "^3.4",
         "drupal/file_delete": "^2.0",
         "drupal/fontawesome": "^2.24",
+        "drupal/google_analytics": "^4.0",
         "drupal/metatag": "^1.22",
         "drupal/page_manager": "^4.0@RC",
         "drupal/panels": "^4.7",
