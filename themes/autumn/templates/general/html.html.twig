@@ -26,7 +26,6 @@
 <!DOCTYPE html>
 <html{{ html_attributes }}>
   <head>
-    <head-placeholder token="{{ placeholder_token|raw }}">
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-82K9CY1RQN"></script>
 <script>
@@ -36,6 +35,7 @@
 
   gtag('config', 'G-82K9CY1RQN', {"anonymize_ip": true, cookie_domain: 'tjgillespie.photography',cookie_flags: 'SameSite=Strict'});
 </script>
+    <head-placeholder token="{{ placeholder_token|raw }}">
     <title>{{ head_title|safe_join(' | ') }}</title>
     <css-placeholder token="{{ placeholder_token|raw }}">
     <!-- link rel="stylesheet" href="{{base_path ~ 'libraries/fontawesome/webfonts/regular.min.css'}}">
