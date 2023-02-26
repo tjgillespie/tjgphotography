@@ -41,7 +41,6 @@
     <!-- link rel="stylesheet" href="{{base_path ~ 'libraries/fontawesome/webfonts/regular.min.css'}}">
     <link rel="stylesheet" href="{{base_path ~ 'libraries/fontawesome/webfonts/solid.min.css'}}" -->
     <link rel="stylesheet" href="{{base_path ~ 'libraries/fontawesome/webfonts/all.min.css'}}">
-    <js-placeholder token="{{ placeholder_token|raw }}">
 
     <!-- connect to domain of font files -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -54,11 +53,6 @@
 
     <!-- async CSS -->
     <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,700&display=swap">
-
-    <!-- no-JS fallback -->
-    <noscript>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,700&display=swap">
-    </noscript>
 
     <link rel="preload" href="{{base_path ~ 'libraries/fontawesome/webfonts/fa-regular-400.woff2'}}" as="font" type="font/woff2" crossorigin >
     <link rel="preload" href="{{base_path ~ 'libraries/fontawesome/webfonts/fa-solid-900.woff2'}}" as="font" type="font/woff2" crossorigin >
@@ -368,6 +362,7 @@
       }
     </style>
     <link rel="stylesheet" href="/themes/autumn/overrides.css">
+    <js-placeholder token="{{ placeholder_token|raw }}">
   </head>
   <body class="{{ page_information }} toolbar-icon-9 adminimal-admin-toolbar" {{ attributes }}>
     {#
