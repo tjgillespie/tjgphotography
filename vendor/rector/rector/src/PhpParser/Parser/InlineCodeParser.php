@@ -49,6 +49,11 @@ final class InlineCodeParser
      */
     private const BACKREFERENCE_NO_QUOTE_REGEX = '#(?<!")(?<backreference>\\\\\\d+)(?!")#';
     /**
+     * @var string
+     * @see https://regex101.com/r/nSO3Eq/1
+     */
+    private const BACKREFERENCE_NO_DOUBLE_QUOTE_START_REGEX = '#(?<!")(?<backreference>\\$\\d+)#';
+    /**
      * @readonly
      * @var \Rector\Core\Contract\PhpParser\NodePrinterInterface
      */
@@ -94,31 +99,41 @@ final class InlineCodeParser
     {
         if ($expr instanceof String_) {
             if (!StringUtils::isMatch($expr->value, self::BACKREFERENCE_NO_QUOTE_REGEX)) {
-                return $expr->value;
+                return Strings::replace($expr->value, self::BACKREFERENCE_NO_DOUBLE_QUOTE_START_REGEX, static function (array $match) : string {
+                    return '"' . $match['backreference'] . '"';
+                });
             }
             return Strings::replace($expr->value, self::BACKREFERENCE_NO_QUOTE_REGEX, static function (array $match) : string {
                 return '"\\' . $match['backreference'] . '"';
             });
         }
         if ($expr instanceof Encapsed) {
-            // remove "
-            $printedExpr = \trim($this->nodePrinter->print($expr), '""');
-            /**
-             * Encapsed "$eval_links" is printed as {$eval_links} → use its value when possible
-             */
-            if (\strncmp($printedExpr, '{', \strlen('{')) === 0 && \substr_compare($printedExpr, '}', -\strlen('}')) === 0 && \count($expr->parts) === 1) {
-                $currentPart = \current($expr->parts);
-                $printedExpr = (string) $this->valueResolver->getValue($currentPart);
-            }
-            // use \$ → $
-            $printedExpr = Strings::replace($printedExpr, self::PRESLASHED_DOLLAR_REGEX, '$');
-            // use \'{$...}\' → $...
-            return Strings::replace($printedExpr, self::CURLY_BRACKET_WRAPPER_REGEX, '$1');
+            return $this->resolveEncapsedValue($expr);
         }
         if ($expr instanceof Concat) {
             return $this->resolveConcatValue($expr);
         }
         return $this->nodePrinter->print($expr);
+    }
+    private function resolveEncapsedValue(Encapsed $encapsed) : string
+    {
+        $value = '';
+        $isRequirePrint = \false;
+        foreach ($encapsed->parts as $part) {
+            $partValue = (string) $this->valueResolver->getValue($part);
+            if (\substr_compare($partValue, "'", -\strlen("'")) === 0) {
+                $isRequirePrint = \true;
+                break;
+            }
+            $value .= $partValue;
+        }
+        $printedExpr = $isRequirePrint ? $this->nodePrinter->print($encapsed) : $value;
+        // remove "
+        $printedExpr = \trim($printedExpr, '""');
+        // use \$ → $
+        $printedExpr = Strings::replace($printedExpr, self::PRESLASHED_DOLLAR_REGEX, '$');
+        // use \'{$...}\' → $...
+        return Strings::replace($printedExpr, self::CURLY_BRACKET_WRAPPER_REGEX, '$1');
     }
     private function resolveConcatValue(Concat $concat) : string
     {

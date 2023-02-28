@@ -440,17 +440,17 @@
         },
         {
             "name": "fidry\/cpu-core-counter",
-            "version": "0.4.1",
-            "version_normalized": "0.4.1.0",
+            "version": "0.5.1",
+            "version_normalized": "0.5.1.0",
             "source": {
                 "type": "git",
                 "url": "https:\/\/github.com\/theofidry\/cpu-core-counter.git",
-                "reference": "79261cc280aded96d098e1b0e0ba0c4881b432c2"
+                "reference": "b58e5a3933e541dc286cc91fc4f3898bbc6f1623"
             },
             "dist": {
                 "type": "zip",
-                "url": "https:\/\/api.github.com\/repos\/theofidry\/cpu-core-counter\/zipball\/79261cc280aded96d098e1b0e0ba0c4881b432c2",
-                "reference": "79261cc280aded96d098e1b0e0ba0c4881b432c2",
+                "url": "https:\/\/api.github.com\/repos\/theofidry\/cpu-core-counter\/zipball\/b58e5a3933e541dc286cc91fc4f3898bbc6f1623",
+                "reference": "b58e5a3933e541dc286cc91fc4f3898bbc6f1623",
                 "shasum": ""
             },
             "require": {
@@ -467,7 +467,7 @@
                 "theofidry\/php-cs-fixer-config": "^1.0",
                 "webmozarts\/strict-phpunit": "^7.5"
             },
-            "time": "2022-12-16T22:01:02+00:00",
+            "time": "2022-12-24T12:35:10+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -492,7 +492,7 @@
             ],
             "support": {
                 "issues": "https:\/\/github.com\/theofidry\/cpu-core-counter\/issues",
-                "source": "https:\/\/github.com\/theofidry\/cpu-core-counter\/tree\/0.4.1"
+                "source": "https:\/\/github.com\/theofidry\/cpu-core-counter\/tree\/0.5.1"
             },
             "funding": [
                 {
@@ -501,6 +501,77 @@
                 }
             ],
             "install-path": "..\/fidry\/cpu-core-counter"
+        },
+        {
+            "name": "nette\/neon",
+            "version": "v3.4.0",
+            "version_normalized": "3.4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/nette\/neon.git",
+                "reference": "372d945c156ee7f35c953339fb164538339e6283"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/nette\/neon\/zipball\/372d945c156ee7f35c953339fb164538339e6283",
+                "reference": "372d945c156ee7f35c953339fb164538339e6283",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=8.0 <8.3"
+            },
+            "require-dev": {
+                "nette\/tester": "^2.4",
+                "phpstan\/phpstan": "^1.0",
+                "tracy\/tracy": "^2.7"
+            },
+            "time": "2023-01-13T03:08:29+00:00",
+            "bin": [
+                "bin\/neon-lint"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.4-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src\/"
+                ]
+            },
+            "notification-url": "https:\/\/packagist.org\/downloads\/",
+            "license": [
+                "BSD-3-Clause",
+                "GPL-2.0-only",
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "David Grudl",
+                    "homepage": "https:\/\/davidgrudl.com"
+                },
+                {
+                    "name": "Nette Community",
+                    "homepage": "https:\/\/nette.org\/contributors"
+                }
+            ],
+            "description": "\ud83c\udf78 Nette NEON: encodes and decodes NEON file format.",
+            "homepage": "https:\/\/ne-on.org",
+            "keywords": [
+                "export",
+                "import",
+                "neon",
+                "nette",
+                "yaml"
+            ],
+            "support": {
+                "issues": "https:\/\/github.com\/nette\/neon\/issues",
+                "source": "https:\/\/github.com\/nette\/neon\/tree\/v3.4.0"
+            },
+            "install-path": "..\/nette\/neon"
         },
         {
             "name": "nette\/utils",
@@ -750,17 +821,17 @@
         },
         {
             "name": "phpstan\/phpdoc-parser",
-            "version": "1.16.0",
-            "version_normalized": "1.16.0.0",
+            "version": "1.16.1",
+            "version_normalized": "1.16.1.0",
             "source": {
                 "type": "git",
                 "url": "https:\/\/github.com\/phpstan\/phpdoc-parser.git",
-                "reference": "57090cfccbfaa639e703c007486d605a6e80f56d"
+                "reference": "e27e92d939e2e3636f0a1f0afaba59692c0bf571"
             },
             "dist": {
                 "type": "zip",
-                "url": "https:\/\/api.github.com\/repos\/phpstan\/phpdoc-parser\/zipball\/57090cfccbfaa639e703c007486d605a6e80f56d",
-                "reference": "57090cfccbfaa639e703c007486d605a6e80f56d",
+                "url": "https:\/\/api.github.com\/repos\/phpstan\/phpdoc-parser\/zipball\/e27e92d939e2e3636f0a1f0afaba59692c0bf571",
+                "reference": "e27e92d939e2e3636f0a1f0afaba59692c0bf571",
                 "shasum": ""
             },
             "require": {
@@ -775,7 +846,7 @@
                 "phpunit\/phpunit": "^9.5",
                 "symfony\/process": "^5.2"
             },
-            "time": "2023-01-29T14:41:23+00:00",
+            "time": "2023-02-07T18:11:17+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -792,23 +863,23 @@
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "support": {
                 "issues": "https:\/\/github.com\/phpstan\/phpdoc-parser\/issues",
-                "source": "https:\/\/github.com\/phpstan\/phpdoc-parser\/tree\/1.16.0"
+                "source": "https:\/\/github.com\/phpstan\/phpdoc-parser\/tree\/1.16.1"
             },
             "install-path": "..\/phpstan\/phpdoc-parser"
         },
         {
             "name": "phpstan\/phpstan",
-            "version": "1.9.14",
-            "version_normalized": "1.9.14.0",
+            "version": "1.10.3",
+            "version_normalized": "1.10.3.0",
             "source": {
                 "type": "git",
                 "url": "https:\/\/github.com\/phpstan\/phpstan.git",
-                "reference": "e5fcc96289cf737304286a9b505fbed091f02e58"
+                "reference": "5419375b5891add97dc74be71e6c1c34baaddf64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https:\/\/api.github.com\/repos\/phpstan\/phpstan\/zipball\/e5fcc96289cf737304286a9b505fbed091f02e58",
-                "reference": "e5fcc96289cf737304286a9b505fbed091f02e58",
+                "url": "https:\/\/api.github.com\/repos\/phpstan\/phpstan\/zipball\/5419375b5891add97dc74be71e6c1c34baaddf64",
+                "reference": "5419375b5891add97dc74be71e6c1c34baaddf64",
                 "shasum": ""
             },
             "require": {
@@ -817,7 +888,7 @@
             "conflict": {
                 "phpstan\/phpstan-shim": "*"
             },
-            "time": "2023-01-19T10:47:09+00:00",
+            "time": "2023-02-25T14:47:13+00:00",
             "bin": [
                 "phpstan",
                 "phpstan.phar"
@@ -840,7 +911,7 @@
             ],
             "support": {
                 "issues": "https:\/\/github.com\/phpstan\/phpstan\/issues",
-                "source": "https:\/\/github.com\/phpstan\/phpstan\/tree\/1.9.14"
+                "source": "https:\/\/github.com\/phpstan\/phpstan\/tree\/1.10.3"
             },
             "funding": [
                 {
@@ -860,22 +931,22 @@
         },
         {
             "name": "phpstan\/phpstan-phpunit",
-            "version": "1.3.3",
-            "version_normalized": "1.3.3.0",
+            "version": "1.3.8",
+            "version_normalized": "1.3.8.0",
             "source": {
                 "type": "git",
                 "url": "https:\/\/github.com\/phpstan\/phpstan-phpunit.git",
-                "reference": "54a24bd23e9e80ee918cdc24f909d376c2e273f7"
+                "reference": "4a19a3cb5b2d28b143f350e45e9f6e17e2cb81b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https:\/\/api.github.com\/repos\/phpstan\/phpstan-phpunit\/zipball\/54a24bd23e9e80ee918cdc24f909d376c2e273f7",
-                "reference": "54a24bd23e9e80ee918cdc24f909d376c2e273f7",
+                "url": "https:\/\/api.github.com\/repos\/phpstan\/phpstan-phpunit\/zipball\/4a19a3cb5b2d28b143f350e45e9f6e17e2cb81b5",
+                "reference": "4a19a3cb5b2d28b143f350e45e9f6e17e2cb81b5",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.2 || ^8.0",
-                "phpstan\/phpstan": "^1.9.3"
+                "phpstan\/phpstan": "^1.10"
             },
             "conflict": {
                 "phpunit\/phpunit": "<7.0"
@@ -886,7 +957,7 @@
                 "phpstan\/phpstan-strict-rules": "^1.0",
                 "phpunit\/phpunit": "^9.5"
             },
-            "time": "2022-12-21T15:25:00+00:00",
+            "time": "2023-02-25T15:14:31+00:00",
             "type": "phpstan-extension",
             "extra": {
                 "phpstan": {
@@ -909,7 +980,7 @@
             "description": "PHPUnit extensions and rules for PHPStan",
             "support": {
                 "issues": "https:\/\/github.com\/phpstan\/phpstan-phpunit\/issues",
-                "source": "https:\/\/github.com\/phpstan\/phpstan-phpunit\/tree\/1.3.3"
+                "source": "https:\/\/github.com\/phpstan\/phpstan-phpunit\/tree\/1.3.8"
             },
             "install-path": "..\/phpstan\/phpstan-phpunit"
         },
@@ -1845,12 +1916,12 @@
             "source": {
                 "type": "git",
                 "url": "https:\/\/github.com\/rectorphp\/rector-doctrine.git",
-                "reference": "a2e31426b9e93623e80486bf5e49cc165089915c"
+                "reference": "ea9cf46a738e623ecd3e1ed7402eec1afa6032cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https:\/\/api.github.com\/repos\/rectorphp\/rector-doctrine\/zipball\/a2e31426b9e93623e80486bf5e49cc165089915c",
-                "reference": "a2e31426b9e93623e80486bf5e49cc165089915c",
+                "url": "https:\/\/api.github.com\/repos\/rectorphp\/rector-doctrine\/zipball\/ea9cf46a738e623ecd3e1ed7402eec1afa6032cd",
+                "reference": "ea9cf46a738e623ecd3e1ed7402eec1afa6032cd",
                 "shasum": ""
             },
             "require": {
@@ -1865,18 +1936,19 @@
                 "phpstan\/phpstan": "^1.8.2",
                 "phpstan\/phpstan-strict-rules": "^1.1",
                 "phpstan\/phpstan-webmozart-assert": "^1.0",
-                "phpunit\/phpunit": "^9.5",
+                "phpunit\/phpunit": "^10.0",
                 "rector\/phpstan-rules": "^0.6",
                 "rector\/rector-debugging": "dev-main",
                 "rector\/rector-generator": "^0.6.10",
                 "rector\/rector-src": "dev-main",
+                "symplify\/easy-ci": "^11.2",
                 "symplify\/easy-coding-standard": "^11.2",
                 "symplify\/phpstan-extensions": "^11.1",
                 "symplify\/phpstan-rules": "^11.1",
                 "symplify\/rule-doc-generator": "^11.1",
                 "symplify\/vendor-patches": "^11.1"
             },
-            "time": "2023-02-03T15:23:29+00:00",
+            "time": "2023-02-03T18:09:54+00:00",
             "default-branch": true,
             "type": "rector-extension",
             "extra": {
@@ -1914,48 +1986,40 @@
             "source": {
                 "type": "git",
                 "url": "https:\/\/github.com\/rectorphp\/rector-downgrade-php.git",
-                "reference": "a7c960fd8036e86df5e1446b9f61302452b60741"
+                "reference": "d4acd905e4c64061dde78486a924994ff38b688b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https:\/\/api.github.com\/repos\/rectorphp\/rector-downgrade-php\/zipball\/a7c960fd8036e86df5e1446b9f61302452b60741",
-                "reference": "a7c960fd8036e86df5e1446b9f61302452b60741",
+                "url": "https:\/\/api.github.com\/repos\/rectorphp\/rector-downgrade-php\/zipball\/d4acd905e4c64061dde78486a924994ff38b688b",
+                "reference": "d4acd905e4c64061dde78486a924994ff38b688b",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.1"
             },
-            "conflict": {
-                "rector\/rector": "<0.13"
-            },
             "require-dev": {
                 "phpstan\/extension-installer": "^1.2",
                 "phpstan\/phpstan": "^1.9",
-                "phpstan\/phpstan-strict-rules": "^1.4",
                 "phpstan\/phpstan-webmozart-assert": "^1.2",
-                "phpunit\/phpunit": "^9.5",
+                "phpunit\/phpunit": "^10.0",
                 "rector\/phpstan-rules": "^0.6",
-                "rector\/rector-debugging": "dev-main",
                 "rector\/rector-generator": "^0.6.14",
                 "rector\/rector-src": "dev-main",
                 "symplify\/easy-ci": "^11.2",
-                "symplify\/easy-coding-standard": "^11.1",
+                "symplify\/easy-coding-standard": "^11.2",
                 "symplify\/phpstan-extensions": "^11.1",
                 "symplify\/phpstan-rules": "^11.1",
-                "symplify\/rule-doc-generator": "^11.1",
-                "symplify\/vendor-patches": "^11.1",
+                "symplify\/rule-doc-generator": "^11.2",
+                "symplify\/vendor-patches": "^11.2",
                 "tomasvotruba\/cognitive-complexity": "^0.0.5",
                 "tomasvotruba\/type-coverage": "^0.0.9",
                 "tomasvotruba\/unused-public": "^0.0.34"
             },
-            "time": "2023-02-03T16:00:40+00:00",
+            "time": "2023-02-23T13:46:43+00:00",
             "default-branch": true,
             "type": "rector-extension",
             "extra": {
                 "enable-patching": true,
-                "branch-alias": {
-                    "dev-main": "0.11-dev"
-                },
                 "rector": {
                     "includes": [
                         "config\/config.php"
@@ -1983,86 +2047,18 @@
             "install-path": "..\/rector\/rector-downgrade-php"
         },
         {
-            "name": "rector\/rector-php-parser",
-            "version": "dev-main",
-            "version_normalized": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https:\/\/github.com\/rectorphp\/rector-php-parser.git",
-                "reference": "ed84d2bc08ce2eb8c8860b17d1d0dc4767be6f4f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https:\/\/api.github.com\/repos\/rectorphp\/rector-php-parser\/zipball\/ed84d2bc08ce2eb8c8860b17d1d0dc4767be6f4f",
-                "reference": "ed84d2bc08ce2eb8c8860b17d1d0dc4767be6f4f",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.1"
-            },
-            "conflict": {
-                "rector\/rector": "<0.12"
-            },
-            "require-dev": {
-                "phpstan\/extension-installer": "^1.1",
-                "phpstan\/phpstan": "^1.8.2",
-                "phpstan\/phpstan-strict-rules": "^1.3",
-                "phpstan\/phpstan-webmozart-assert": "^1.2",
-                "phpunit\/phpunit": "^9.5.21",
-                "rector\/phpstan-rules": "^0.6",
-                "rector\/rector-debugging": "dev-main",
-                "rector\/rector-generator": "^0.6.13",
-                "rector\/rector-src": "dev-main",
-                "symplify\/easy-coding-standard": "^11.1",
-                "symplify\/phpstan-extensions": "^11.1",
-                "symplify\/phpstan-rules": "^11.1",
-                "symplify\/rule-doc-generator": "^11.1",
-                "symplify\/vendor-patches": "^11.1"
-            },
-            "time": "2023-02-03T15:56:36+00:00",
-            "default-branch": true,
-            "type": "rector-extension",
-            "extra": {
-                "enable-patching": true,
-                "branch-alias": {
-                    "dev-main": "0.11-dev"
-                },
-                "rector": {
-                    "includes": [
-                        "config\/config.php"
-                    ]
-                }
-            },
-            "installation-source": "dist",
-            "autoload": {
-                "psr-4": {
-                    "Rector\\PhpParser\\": "src"
-                }
-            },
-            "notification-url": "https:\/\/packagist.org\/downloads\/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Rector upgrades rules for PHP-Parser",
-            "support": {
-                "issues": "https:\/\/github.com\/rectorphp\/rector-php-parser\/issues",
-                "source": "https:\/\/github.com\/rectorphp\/rector-php-parser\/tree\/main"
-            },
-            "install-path": "..\/rector\/rector-php-parser"
-        },
-        {
             "name": "rector\/rector-phpunit",
             "version": "dev-main",
             "version_normalized": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https:\/\/github.com\/rectorphp\/rector-phpunit.git",
-                "reference": "3d3f65dd46b15e14d819cb6ed9c70a7b73133875"
+                "reference": "dfeb67c1b2950de2dbc093ed187fb6559a4ddf21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https:\/\/api.github.com\/repos\/rectorphp\/rector-phpunit\/zipball\/3d3f65dd46b15e14d819cb6ed9c70a7b73133875",
-                "reference": "3d3f65dd46b15e14d819cb6ed9c70a7b73133875",
+                "url": "https:\/\/api.github.com\/repos\/rectorphp\/rector-phpunit\/zipball\/dfeb67c1b2950de2dbc093ed187fb6559a4ddf21",
+                "reference": "dfeb67c1b2950de2dbc093ed187fb6559a4ddf21",
                 "shasum": ""
             },
             "require": {
@@ -2072,23 +2068,26 @@
                 "rector\/rector": "<0.11"
             },
             "require-dev": {
-                "phpstan\/extension-installer": "^1.1",
-                "phpstan\/phpstan": "^1.9.2",
-                "phpstan\/phpstan-strict-rules": "^1.2",
-                "phpstan\/phpstan-webmozart-assert": "^1.1",
-                "phpunit\/phpunit": "^9.6",
+                "phpstan\/extension-installer": "^1.2",
+                "phpstan\/phpstan": "^1.9.14",
+                "phpstan\/phpstan-strict-rules": "^1.4.5",
+                "phpstan\/phpstan-webmozart-assert": "^1.2.2",
+                "phpunit\/phpunit": "^10.0",
                 "rector\/phpstan-rules": "^0.6",
                 "rector\/rector-debugging": "dev-main",
-                "rector\/rector-generator": "^0.6",
+                "rector\/rector-generator": "^0.6.14",
                 "rector\/rector-src": "dev-main",
-                "symplify\/easy-ci": "^11.1",
-                "symplify\/easy-coding-standard": "^11.1",
+                "symplify\/easy-ci": "^11.2.0",
+                "symplify\/easy-coding-standard": "^11.2",
                 "symplify\/phpstan-extensions": "^11.1",
-                "symplify\/phpstan-rules": "^11.1",
-                "symplify\/rule-doc-generator": "^11.1",
-                "symplify\/vendor-patches": "^11.1"
+                "symplify\/phpstan-rules": "^11.2.3",
+                "symplify\/rule-doc-generator": "^11.2",
+                "symplify\/vendor-patches": "^11.2.0",
+                "tomasvotruba\/cognitive-complexity": "^0.0.5",
+                "tomasvotruba\/type-coverage": "^0.0.9",
+                "tomasvotruba\/unused-public": "^0.0.34"
             },
-            "time": "2023-02-03T15:21:57+00:00",
+            "time": "2023-02-27T21:11:40+00:00",
             "default-branch": true,
             "type": "rector-extension",
             "extra": {
@@ -2126,53 +2125,46 @@
             "source": {
                 "type": "git",
                 "url": "https:\/\/github.com\/rectorphp\/rector-symfony.git",
-                "reference": "545a0906a3a585f64599e95dfc97b777356626cf"
+                "reference": "3cebcd90e9b356a860801742616f64d5858a4496"
             },
             "dist": {
                 "type": "zip",
-                "url": "https:\/\/api.github.com\/repos\/rectorphp\/rector-symfony\/zipball\/545a0906a3a585f64599e95dfc97b777356626cf",
-                "reference": "545a0906a3a585f64599e95dfc97b777356626cf",
+                "url": "https:\/\/api.github.com\/repos\/rectorphp\/rector-symfony\/zipball\/3cebcd90e9b356a860801742616f64d5858a4496",
+                "reference": "3cebcd90e9b356a860801742616f64d5858a4496",
                 "shasum": ""
             },
             "require": {
                 "ext-xml": "*",
                 "php": ">=8.1",
-                "symfony\/string": "^6.1"
-            },
-            "conflict": {
-                "rector\/rector": "<0.13"
+                "symfony\/string": "^6.1",
+                "triun\/longest-common-substring": "^1.0"
             },
             "require-dev": {
                 "phpstan\/extension-installer": "^1.2",
                 "phpstan\/phpstan": "^1.9.2",
                 "phpstan\/phpstan-webmozart-assert": "^1.2",
-                "phpunit\/phpunit": "^9.5",
+                "phpunit\/phpunit": "^10.0",
                 "rector\/phpstan-rules": "^0.6",
-                "rector\/rector-debugging": "dev-main",
                 "rector\/rector-generator": "^0.6",
                 "rector\/rector-src": "dev-main",
                 "symfony\/routing": "^6.1",
-                "symfony\/security-core": "^6.1",
+                "symfony\/security-core": "^6.2",
                 "symfony\/security-http": "^6.1",
                 "symplify\/easy-ci": "^11.1",
-                "symplify\/easy-coding-standard": "^11.1",
-                "symplify\/monorepo-builder": "^11.1.30",
+                "symplify\/easy-coding-standard": "^11.2",
                 "symplify\/phpstan-extensions": "^11.1",
-                "symplify\/phpstan-rules": "^11.1",
-                "symplify\/rule-doc-generator": "^11.1",
-                "symplify\/vendor-patches": "^11.1",
+                "symplify\/phpstan-rules": "^11.2",
+                "symplify\/rule-doc-generator": "^11.2",
+                "symplify\/vendor-patches": "^11.2",
                 "tomasvotruba\/cognitive-complexity": "^0.0.5",
                 "tomasvotruba\/type-coverage": "^0.0.9",
                 "tomasvotruba\/unused-public": "^0.0.34"
             },
-            "time": "2023-02-02T12:34:44+00:00",
+            "time": "2023-02-21T11:24:24+00:00",
             "default-branch": true,
             "type": "rector-extension",
             "extra": {
                 "enable-patching": true,
-                "branch-alias": {
-                    "dev-main": "0.11-dev"
-                },
                 "rector": {
                     "includes": [
                         "config\/config.php"
@@ -2596,8 +2588,7 @@
             "type": "library",
             "extra": {
                 "patches_applied": [
-                    "https:\/\/raw.githubusercontent.com\/symplify\/vendor-patch-files\/main\/patches\/generic-php-config-loader.patch",
-                    "https:\/\/raw.githubusercontent.com\/rectorphp\/vendor-patches\/main\/patches\/symfony-dependency-injection.patch"
+                    "https:\/\/raw.githubusercontent.com\/symplify\/vendor-patch-files\/main\/patches\/generic-php-config-loader.patch"
                 ]
             },
             "installation-source": "dist",
@@ -3041,50 +3032,41 @@
         },
         {
             "name": "symplify\/easy-parallel",
-            "version": "11.1.25",
-            "version_normalized": "11.1.25.0",
+            "version": "11.1.27",
+            "version_normalized": "11.1.27.0",
             "source": {
                 "type": "git",
                 "url": "https:\/\/github.com\/symplify\/easy-parallel.git",
-                "reference": "9df48fbeafe281fdc3a77f0308e29ce44d9af2c4"
+                "reference": "28911142f6a0f4127271f745e2403bb84fcd2b87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https:\/\/api.github.com\/repos\/symplify\/easy-parallel\/zipball\/9df48fbeafe281fdc3a77f0308e29ce44d9af2c4",
-                "reference": "9df48fbeafe281fdc3a77f0308e29ce44d9af2c4",
+                "url": "https:\/\/api.github.com\/repos\/symplify\/easy-parallel\/zipball\/28911142f6a0f4127271f745e2403bb84fcd2b87",
+                "reference": "28911142f6a0f4127271f745e2403bb84fcd2b87",
                 "shasum": ""
             },
             "require": {
                 "clue\/ndjson-react": "^1.3",
-                "fidry\/cpu-core-counter": "^0.4.0",
+                "fidry\/cpu-core-counter": "^0.4.0 || ^0.5.1",
                 "php": ">=8.1",
                 "react\/child-process": "^0.6.5",
                 "react\/event-loop": "^1.3",
                 "react\/socket": "^1.12",
                 "symfony\/console": "^6.2"
             },
-            "conflict": {
-                "symplify\/autowire-array-parameter": "<11.1.25",
-                "symplify\/coding-standard": "<11.1.24",
-                "symplify\/config-transformer": "<11.1.24",
-                "symplify\/easy-ci": "<11.1.24",
-                "symplify\/easy-testing": "<11.1.25",
-                "symplify\/monorepo-builder": "<11.1.24",
-                "symplify\/package-builder": "<11.1.25",
-                "symplify\/php-config-printer": "<11.1.25",
-                "symplify\/phpstan-extensions": "<11.1.25",
-                "symplify\/phpstan-rules": "<11.1.24",
-                "symplify\/rule-doc-generator": "<11.1.25",
-                "symplify\/rule-doc-generator-contracts": "<11.1.25",
-                "symplify\/smart-file-system": "<11.1.25",
-                "symplify\/symfony-static-dumper": "<11.1.25",
-                "symplify\/symplify-kernel": "<11.1.25"
-            },
             "require-dev": {
+                "php-parallel-lint\/php-parallel-lint": "^1.3",
+                "phpstan\/extension-installer": "^1.2",
                 "phpunit\/phpunit": "^9.5.26",
-                "symplify\/package-builder": "^11.1.25"
+                "rector\/rector": "^0.15.10",
+                "symplify\/easy-ci": "^11.1",
+                "symplify\/easy-coding-standard": "^11.1",
+                "symplify\/package-builder": "^11.2",
+                "symplify\/phpstan-extensions": "^11.1",
+                "symplify\/symplify-kernel": "^11.2",
+                "tomasvotruba\/unused-public": "^0.0.34"
             },
-            "time": "2023-01-28T10:13:28+00:00",
+            "time": "2023-02-04T15:19:23+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -3104,47 +3086,51 @@
             "description": "Helper package for easier CLI project parallelization",
             "support": {
                 "issues": "https:\/\/github.com\/symplify\/easy-parallel\/issues",
-                "source": "https:\/\/github.com\/symplify\/easy-parallel\/tree\/11.1.25"
+                "source": "https:\/\/github.com\/symplify\/easy-parallel\/tree\/11.1.27"
             },
+            "funding": [
+                {
+                    "url": "https:\/\/www.paypal.me\/rectorphp",
+                    "type": "custom"
+                },
+                {
+                    "url": "https:\/\/github.com\/tomasvotruba",
+                    "type": "github"
+                }
+            ],
             "install-path": "..\/symplify\/easy-parallel"
         },
         {
             "name": "symplify\/rule-doc-generator-contracts",
-            "version": "11.1.25",
-            "version_normalized": "11.1.25.0",
+            "version": "11.1.26",
+            "version_normalized": "11.1.26.0",
             "source": {
                 "type": "git",
                 "url": "https:\/\/github.com\/symplify\/rule-doc-generator-contracts.git",
-                "reference": "05b78c1e832bd2427af080368f2b0d886af360f8"
+                "reference": "3e66b3fec678b74a076395ec629d535fb95293b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https:\/\/api.github.com\/repos\/symplify\/rule-doc-generator-contracts\/zipball\/05b78c1e832bd2427af080368f2b0d886af360f8",
-                "reference": "05b78c1e832bd2427af080368f2b0d886af360f8",
+                "url": "https:\/\/api.github.com\/repos\/symplify\/rule-doc-generator-contracts\/zipball\/3e66b3fec678b74a076395ec629d535fb95293b5",
+                "reference": "3e66b3fec678b74a076395ec629d535fb95293b5",
                 "shasum": ""
             },
             "require": {
                 "nette\/utils": "^3.2",
                 "php": ">=8.1"
             },
-            "conflict": {
-                "symplify\/autowire-array-parameter": "<11.1.25",
-                "symplify\/coding-standard": "<11.1.24",
-                "symplify\/config-transformer": "<11.1.24",
-                "symplify\/easy-ci": "<11.1.24",
-                "symplify\/easy-parallel": "<11.1.25",
-                "symplify\/easy-testing": "<11.1.25",
-                "symplify\/monorepo-builder": "<11.1.24",
-                "symplify\/package-builder": "<11.1.25",
-                "symplify\/php-config-printer": "<11.1.25",
-                "symplify\/phpstan-extensions": "<11.1.25",
-                "symplify\/phpstan-rules": "<11.1.24",
-                "symplify\/rule-doc-generator": "<11.1.25",
-                "symplify\/smart-file-system": "<11.1.25",
-                "symplify\/symfony-static-dumper": "<11.1.25",
-                "symplify\/symplify-kernel": "<11.1.25"
+            "require-dev": {
+                "php-parallel-lint\/php-parallel-lint": "^1.3",
+                "phpstan\/extension-installer": "^1.2",
+                "rector\/rector": "^0.15.10",
+                "symplify\/easy-ci": "^11.1",
+                "symplify\/easy-coding-standard": "^11.1",
+                "symplify\/easy-testing": "^11.1",
+                "symplify\/phpstan-extensions": "^11.1",
+                "symplify\/phpstan-rules": "11.2.3.72",
+                "tomasvotruba\/unused-public": "^0.0.34"
             },
-            "time": "2023-01-28T10:13:31+00:00",
+            "time": "2023-02-07T07:16:13+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -3163,7 +3149,7 @@
             ],
             "description": "Contracts for production code of RuleDocGenerator",
             "support": {
-                "source": "https:\/\/github.com\/symplify\/rule-doc-generator-contracts\/tree\/11.1.25"
+                "source": "https:\/\/github.com\/symplify\/rule-doc-generator-contracts\/tree\/11.1.26"
             },
             "funding": [
                 {
@@ -3176,6 +3162,132 @@
                 }
             ],
             "install-path": "..\/symplify\/rule-doc-generator-contracts"
+        },
+        {
+            "name": "tracy\/tracy",
+            "version": "v2.9.6",
+            "version_normalized": "2.9.6.0",
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/nette\/tracy.git",
+                "reference": "80533f4bda19ce8138c0fc984743533e2a0e1c5c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/nette\/tracy\/zipball\/80533f4bda19ce8138c0fc984743533e2a0e1c5c",
+                "reference": "80533f4bda19ce8138c0fc984743533e2a0e1c5c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-session": "*",
+                "php": ">=7.2 <8.3"
+            },
+            "conflict": {
+                "nette\/di": "<3.0"
+            },
+            "require-dev": {
+                "latte\/latte": "^2.5",
+                "nette\/di": "^3.0",
+                "nette\/mail": "^3.0",
+                "nette\/tester": "^2.2",
+                "nette\/utils": "^3.0",
+                "phpstan\/phpstan": "^1.0",
+                "psr\/log": "^1.0 || ^2.0 || ^3.0"
+            },
+            "time": "2023-02-06T15:31:40+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.9-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src\/Tracy\/functions.php"
+                ],
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https:\/\/packagist.org\/downloads\/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "David Grudl",
+                    "homepage": "https:\/\/davidgrudl.com"
+                },
+                {
+                    "name": "Nette Community",
+                    "homepage": "https:\/\/nette.org\/contributors"
+                }
+            ],
+            "description": "\ud83d\ude0e  Tracy: the addictive tool to ease debugging PHP code for cool developers. Friendly design, logging, profiler, advanced features like debugging AJAX calls or CLI support. You will love it.",
+            "homepage": "https:\/\/tracy.nette.org",
+            "keywords": [
+                "Xdebug",
+                "debug",
+                "debugger",
+                "nette",
+                "profiler"
+            ],
+            "support": {
+                "issues": "https:\/\/github.com\/nette\/tracy\/issues",
+                "source": "https:\/\/github.com\/nette\/tracy\/tree\/v2.9.6"
+            },
+            "install-path": "..\/tracy\/tracy"
+        },
+        {
+            "name": "triun\/longest-common-substring",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/Triun\/PHP-Longest-Common-Substring.git",
+                "reference": "eb353758f4b2ec8c874ad36c2acd35d38cf436d4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/Triun\/PHP-Longest-Common-Substring\/zipball\/eb353758f4b2ec8c874ad36c2acd35d38cf436d4",
+                "reference": "eb353758f4b2ec8c874ad36c2acd35d38cf436d4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "phpunit\/phpunit": "^6.5",
+                "squizlabs\/php_codesniffer": "^3.2",
+                "symfony\/var-dumper": "^3.4"
+            },
+            "time": "2018-04-08T13:56:01+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "RectorPrefix202302\\Triun\\LongestCommonSubstring\\": "src\/"
+                }
+            },
+            "notification-url": "https:\/\/packagist.org\/downloads\/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gonzalo Moreno",
+                    "homepage": "https:\/\/github.com\/gonzalom"
+                }
+            ],
+            "description": "PHP implementation of an algorithm to solve the `longest common substring` problem.",
+            "homepage": "https:\/\/github.com\/Triun",
+            "support": {
+                "issues": "https:\/\/github.com\/Triun\/PHP-Longest-Common-Substring\/issues",
+                "source": "https:\/\/github.com\/Triun\/PHP-Longest-Common-Substring"
+            },
+            "install-path": "..\/triun\/longest-common-substring"
         },
         {
             "name": "webmozart\/assert",

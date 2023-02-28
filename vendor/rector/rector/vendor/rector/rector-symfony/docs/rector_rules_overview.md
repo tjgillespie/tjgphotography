@@ -1,4 +1,4 @@
-# 75 Rules Overview
+# 79 Rules Overview
 
 ## ActionSuffixRemoverRector
 
@@ -193,7 +193,10 @@ use Rector\Config\RectorConfig;
 use Rector\Symfony\Rector\Class_\ChangeFileLoaderInExtensionAndKernelRector;
 
 return static function (RectorConfig $rectorConfig): void {
-    $rectorConfig->ruleWithConfiguration(ChangeFileLoaderInExtensionAndKernelRector::class, [ChangeFileLoaderInExtensionAndKernelRector::FROM => 'xml', ChangeFileLoaderInExtensionAndKernelRector::TO => 'yaml']);
+    $rectorConfig->ruleWithConfiguration(ChangeFileLoaderInExtensionAndKernelRector::class, [
+        ChangeFileLoaderInExtensionAndKernelRector::FROM => 'xml',
+        ChangeFileLoaderInExtensionAndKernelRector::TO => 'yaml',
+    ]);
 };
 ```
 
@@ -1073,6 +1076,30 @@ Turns old option names to new ones in FormTypes in Form in Symfony
 
 <br>
 
+## ParamConverterAttributeToMapEntityAttributeRector
+
+Replace ParamConverter attribute with mappings with the MapEntity attribute
+
+- class: [`Rector\Symfony\Rector\ClassMethod\ParamConverterAttributeToMapEntityAttributeRector`](../src/Rector/ClassMethod/ParamConverterAttributeToMapEntityAttributeRector.php)
+
+```diff
+ class SomeController
+ {
+     #[Route('/blog/{date}/{slug}/comments/{comment_slug}')]
+-    #[ParamConverter('post', options: ['mapping' => ['date' => 'date', 'slug' => 'slug']])]
+-    #[ParamConverter('comment', options: ['mapping' => ['comment_slug' => 'slug']])]
+     public function showComment(
+-        Post $post,
+-        Comment $comment
++        #[\Symfony\Bridge\Doctrine\Attribute\MapEntity(mapping: ['date' => 'date', 'slug' => 'slug'])] Post $post,
++        #[\Symfony\Bridge\Doctrine\Attribute\MapEntity(mapping: ['comment_slug' => 'slug'])] Comment $comment
+     ) {
+     }
+ }
+```
+
+<br>
+
 ## ParamTypeFromRouteRequiredRegexRector
 
 Complete strict param type declaration based on route annotation
@@ -1345,7 +1372,10 @@ use Rector\Symfony\Rector\FuncCall\ReplaceServiceArgumentRector;
 use Rector\Symfony\ValueObject\ReplaceServiceArgument;
 
 return static function (RectorConfig $rectorConfig): void {
-    $rectorConfig->ruleWithConfiguration(ReplaceServiceArgumentRector::class, [new ReplaceServiceArgument('ContainerInterface', new String_('service_container', []))]);
+    $rectorConfig->ruleWithConfiguration(ReplaceServiceArgumentRector::class, [
+        new ReplaceServiceArgument('ContainerInterface', new String_('service_container', [
+        ])),
+    ]);
 };
 ```
 
@@ -1457,6 +1487,26 @@ Change RouteCollectionBuilder to RoutingConfiguratorRector
 
 <br>
 
+## ServiceArgsToServiceNamedArgRector
+
+Converts order-dependent arguments `args()` to named arg `arg()`
+
+- class: [`Rector\Symfony\Rector\Closure\ServiceArgsToServiceNamedArgRector`](../src/Rector/Closure/ServiceArgsToServiceNamedArgRector.php)
+
+```diff
+ use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
+
+ return static function (ContainerConfigurator $containerConfigurator): void {
+     $services = $containerConfigurator->services();
+
+     $services->set(SomeClass::class)
+-        ->args(['some_value']);
++        ->arg('$someCtorParameter', 'some_value');
+ };
+```
+
+<br>
+
 ## ServiceSetStringNameToClassNameRector
 
 Change `$service->set()` string names to class-type-based names, to allow `$container->get()` by types in Symfony 2.8. Provide XML config via `$rectorConfig->symfonyContainerXml(...);`
@@ -1471,6 +1521,54 @@ Change `$service->set()` string names to class-type-based names, to allow `$cont
 
 -    $services->set('some_name', App\SomeClass::class);
 +    $services->set('app\\someclass', App\SomeClass::class);
+ };
+```
+
+<br>
+
+## ServiceSettersToSettersAutodiscoveryRector
+
+Change `$services->set(...,` ...) to `$services->load(...,` ...) where meaningful
+
+- class: [`Rector\Symfony\Rector\Closure\ServiceSettersToSettersAutodiscoveryRector`](../src/Rector/Closure/ServiceSettersToSettersAutodiscoveryRector.php)
+
+```diff
+ use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
+
+-use App\Services\FistService;
+-use App\Services\SecondService;
+-
+ return static function (ContainerConfigurator $containerConfigurator): void {
+     $parameters = $containerConfigurator->parameters();
+
+     $services = $containerConfigurator->services();
+
+-    $services->set(FistService::class);
+-    $services->set(SecondService::class);
++    $services->load('App\\Services\\', '../src/Services/*');
+ };
+```
+
+<br>
+
+## ServiceTagsToDefaultsAutoconfigureRector
+
+Change `$services->set(...,` ...)->tag(...) to `$services->defaults()->autodiscovery()` where meaningful
+
+- class: [`Rector\Symfony\Rector\Closure\ServiceTagsToDefaultsAutoconfigureRector`](../src/Rector/Closure/ServiceTagsToDefaultsAutoconfigureRector.php)
+
+```diff
+ use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
+ use App\Command\SomeCommand;
+
+ return static function (ContainerConfigurator $containerConfigurator): void {
+     $services = $containerConfigurator->services();
++    $services->defaults()
++        ->autoconfigure();
+
+-    $services->set(SomeCommand::class)
+-        ->tag('console.command');
++    $services->set(SomeCommand::class);
  };
 ```
 
