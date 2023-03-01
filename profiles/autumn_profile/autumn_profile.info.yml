@@ -2,7 +2,7 @@ name: autumn_profile
 type: profile
 description: 'Install the theme "autumn" pre-configured and with the same content as in the demo.'
 keep_english: true
-core_version_requirement: ^8.8 || ^9
+core_version_requirement: ^9 || ^10
 
 install:
   - admin_toolbar
